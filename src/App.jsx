@@ -11,7 +11,6 @@ function App() {
           <span className='font-semibold text-[32px] mr-1.5'>IY-KAY</span>
           <span className='font-semibold text-[32px] text-[#1e7ed7]'>MOTORS</span>
         </div>
-
         <div>
           <ul className='justify-between'>
             <li className='mr-9'>
