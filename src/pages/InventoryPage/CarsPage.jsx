@@ -94,7 +94,6 @@ function CarsPage() {
                 </div>
 
             </section>
-
         </>
     )
 }
