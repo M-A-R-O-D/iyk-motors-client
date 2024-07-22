@@ -18,7 +18,7 @@ function App() {
           <a href="" className='font-semibold text-[27px] mr-9  decoration-2 decoration-[#1e7ed7] hover:underline'style={{ textUnderlineOffset: '15px' }}>HOME</a>
           <a href="" className='font-semibold text-[27px] mr-9  decoration-2 decoration-[#1e7ed7] hover:underline'style={{ textUnderlineOffset: '15px' }}>CARS</a>
           <a href="" className='font-semibold text-[27px] mr-9  decoration-2 decoration-[#1e7ed7] hover:underline'style={{ textUnderlineOffset: '15px' }}>ABOUT US</a>
-          <a href="" className='font-semibold text-[27px] mr-9  decoration-2 decoration-[#1e7ed7] hover:underline'style={{ textUnderlineOffset: '15px' }}>OUR BLOG</a>
+          <a href="" className='font-semibold text-[27px] mr-9  decoration-2 decoration-[#1e7ed7] hover:underline'style={{ textUnderlineOffset: '15px' }}>CONTACT</a>
         </li>
       </ul>
       </div>
@@ -185,81 +185,129 @@ function App() {
         <div className="1 p-8">
           <p className='text-[26px] bebas-neue'>FILTER-03</p>
         </div>
-        <div className="2 flex flex-row ">
-          <div className=" sidebar w-60  p-5 flex-shrink-0 ">
-          
-            <p className="bebas-neue text-gray-500 text-[26px]">
-              VEHICLE TYPE
-            </p>
-            {/* <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
-              keyboard_arrow_down
-            </span> */}
-         
-            <hr />
-            <p><span>&#9723;</span>Economy</p>
-            <p><span>&#9723;</span>Compact</p>
-            <p><span>&#9723;</span>Midsize</p>
-            <p><span>&#9723;</span>Standard</p>
-            <p><span>&#9723;</span>Full size</p>
-            <p><span>&#9723;</span>Sports utility</p>
-            <p><span>&#9723;</span>Sports car</p>
-            
-            <p className='bebas-neue'>TRANSMISSION TYPE</p>
-            <hr />
-            <p className='bebas-neue'>CITY</p>
-            <hr />
-            <p className='bebas-neue'>PAYMENT METHOD</p>
-            <hr />
-            <p className='bebas-neue'>NUMBER OF SEATS</p>
-            <hr />
-            <p className='bebas-neue'>KILOMETER GAUGE</p>
-          </div>
-
-          <div className='car-blog '>
-            <p className='bebas-neue text-[26px]'>WE HAVE FOUND <span className='text-[#1e7ed7]'>365 CARS </span>FOR YOU</p>
-             <div className='flex flex-wrap'>
-            <div className='w-[320px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5'>
-             <img className='w-full' src="/assets/nissan nav.png" alt="Nissan navara" />
-             <h3 className='bebas-neue text-[26px]'>NISSAN NAVARA <span className='text-[#1e7ed7]'>- 2023</span></h3>
-             <p className='mb-8 '>start prices from GHc 490,000</p>
-             <button className='w-72 h-10 bg-[#0e5a9f] text-white bebas-neue' >PROCEED TO BUY</button>
-          </div>
-          <div className='w-[320px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5'>
-             <img className='w-full' src="/assets/XE.jpg" alt="Nissan navara" />
-             <h3 className='bebas-neue text-[26px]'>NISSAN NAVARA XE <span className='text-[#1e7ed7]'> + - 2024</span></h3>
-             <p className='mb-8 '>start prices from GHc 502,425</p>
-             <button className='w-72 h-10 bg-[#0e5a9f] text-white bebas-neue' >PROCEED TO BUY</button>
-          </div>
-          <div className='w-[320px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5 '>
-             <img className='w-full h-48' src="/assets/Thigh.jpg" alt="Nissan navara" />
-             <h3 className='bebas-neue text-[26px]'>2023 TOYOTA <span className='text-[#1e7ed7]'>HIGHLANDER</span></h3>
-             <p className='mb-8 '>start prices from $ 10,000</p>
-             <button className='w-72 h-10 bg-[#0e5a9f] text-white bebas-neue' >PROCEED TO BUY</button>
-          </div>
-          <div className='w-[320px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5'>
-             <img className='w-full' src="/assets/thundra.jpg" alt="Nissan navara" />
-             <h3 className='bebas-neue text-[26px]'>TOYOTA THUNDRA <span className='text-[#1e7ed7]'>- 2022</span></h3>
-             <p className='mb-8 '>start prices from GHc 2,346,250</p>
-             <button className='w-72 h-10 bg-[#0e5a9f] text-white bebas-neue' >PROCEED TO BUY</button>
-          </div>
-          <div className='w-[320px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5'>
-             <img className='w-full' src="/assets/bmw.jpg" alt="Nissan navara" />
-             <h3 className='bebas-neue text-[26px]'>BMW 330I<span className='text-[#1e7ed7]'>- 2020</span></h3>
-             <p className='mb-8 '>start prices from GHc 688,750</p>
-             <button className='w-72 h-10 bg-[#0e5a9f] text-white bebas-neue' >PROCEED TO BUY</button>
-          </div>
-          <div className='w-[320px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5'>
-             <img className='w-full h-48' src="/assets/h21.jpg" alt="Nissan navara" />
-             <h3 className='bebas-neue text-[26px]'>HONDA CR-V<span className='text-[#1e7ed7]'>- 2021</span></h3>
-             <p className='mb-8 '>start prices from GHc 430,000</p>
-             <button className='w-72 h-10 bg-[#0e5a9f] text-white bebas-neue' >PROCEED TO BUY</button>
-          </div>
-          
-          </div>
-          
-          </div>
-          
+        <div className="flex">
+      <div className="sidebar w-80 h-auto p-5">
+        <div className="relative mb-4">
+          <p className="bebas-neue text-gray-500 text-[26px]">
+            VEHICLE TYPE
+          </p>
+          <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
+            keyboard_arrow_down
+          </span>
         </div>
+        <hr />
+        <div className="space-y-4">
+      <p className="flex items-center text-gray-400">
+        <span className="mr-2 ">&#9723;</span>Economy
+      </p>
+      <p className="flex items-center text-gray-400">
+        <span className="mr-2">&#9723;</span>Compact
+      </p>
+      <p className="flex items-center text-gray-400">
+        <span className="mr-2">&#9723;</span>Midsize
+      </p>
+      <p className="flex items-center text-gray-400">
+        <span className="mr-2">&#9723;</span>Standard
+      </p>
+      <p className="flex items-center text-gray-400">
+        <span className="mr-2">&#9723;</span>Full size
+      </p>
+      <p className="flex items-center text-gray-400">
+        <span className="mr-2">&#9723;</span>Sports utility
+      </p>
+      <p className="flex items-center text-gray-400">
+        <span className="mr-2">&#9723;</span>Sports car
+      </p>
+    </div>
+
+        <div className="relative mb-4">
+          <p className="bebas-neue text-gray-500 text-[20px]">
+            TRANSMISSION TYPE
+          </p>
+          <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
+            keyboard_arrow_down
+          </span>
+        </div>
+        <hr />
+        <div className="relative mb-4">
+          <p className="bebas-neue text-gray-500 text-[20px]">
+            CARS
+          </p>
+          <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
+            keyboard_arrow_down
+          </span>
+        </div>
+        <hr />
+        <div className="relative mb-4">
+          <p className="bebas-neue text-gray-500 text-[20px]">
+            PAYMENT METHOD
+          </p>
+          <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
+            keyboard_arrow_down
+          </span>
+        </div>
+        <hr />
+        <div className="relative mb-4">
+          <p className="bebas-neue text-gray-500 text-[20px]">
+            NUMBER OF SEATS
+          </p>
+          <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
+            keyboard_arrow_down
+          </span>
+        </div>
+        <hr />
+        <div className="relative mb-4">
+          <p className="bebas-neue text-gray-500 text-[20px]">
+            KILOMETER GAUGE
+          </p>
+          <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
+            keyboard_arrow_down
+          </span>
+        </div>
+      </div>
+
+      <div className="car-blog flex-grow p-5">
+        <p className="bebas-neue text-[26px]">WE HAVE FOUND <span className="text-[#1e7ed7]">365 CARS </span>FOR YOU</p>
+        <div className="flex flex-wrap">
+          <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
+            <img className="w-full" src="/assets/nissan nav.png" alt="Nissan navara" />
+            <h3 className="bebas-neue text-[26px]">NISSAN NAVARA <span className="text-[#1e7ed7]">- 2023</span></h3>
+            <p className="mb-8">start prices from GHc 490,000</p>
+            <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button>
+          </div>
+          <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
+            <img className="w-full" src="/assets/XE.jpg" alt="Nissan navara" />
+            <h3 className="bebas-neue text-[26px]">NISSAN NAVARA XE <span className="text-[#1e7ed7]"> + - 2024</span></h3>
+            <p className="mb-8">start prices from GHc 502,425</p>
+            <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button>
+          </div>
+          <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
+            <img className="w-full h-48" src="/assets/Thigh.jpg" alt="Nissan navara" />
+            <h3 className="bebas-neue text-[26px]">2023 TOYOTA <span className="text-[#1e7ed7]">HIGHLANDER</span></h3>
+            <p className="mb-8">start prices from $ 10,000</p>
+            <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button>
+          </div>
+          <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
+            <img className="w-full" src="/assets/thundra.jpg" alt="Nissan navara" />
+            <h3 className="bebas-neue text-[26px]">TOYOTA THUNDRA <span className="text-[#1e7ed7]">- 2022</span></h3>
+            <p className="mb-8">start prices from GHc 2,346,250</p>
+            <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button>
+          </div>
+          <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
+            <img className="w-full" src="/assets/bmw.jpg" alt="Nissan navara" />
+            <h3 className="bebas-neue text-[26px]">BMW 330I<span className="text-[#1e7ed7]">- 2020</span></h3>
+            <p className="mb-8">start prices from GHc 688,750</p>
+            <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button>
+          </div>
+          <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
+            <img className="w-full h-48" src="/assets/h21.jpg" alt="Nissan navara" />
+            <h3 className="bebas-neue text-[26px]">HONDA CR-V<span className="text-[#1e7ed7]">- 2021</span></h3>
+            <p className="mb-8">start prices from GHc 430,000</p>
+            <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button>
+          </div>
+        </div>
+      </div>
+    </div>
       </section>
 
       <section>

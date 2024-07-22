@@ -20,14 +20,14 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  .space-y-4 {
+  /* .space-y-4 {
     margin-top: 1rem; 
     margin-bottom: 1rem; 
-  }
+  } */
   
   .flex {
     display: flex;
-    align-items: center; 
+    /* align-items: center;  */
   }
   
   .mr-2 {
