@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bebas-neue {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Adjust the size as needed */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .space-y-4 {
+    margin-top: 1rem; 
+    margin-bottom: 1rem; 
+  }
+  
+  .flex {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .mr-2 {
+    margin-right: 0.5rem; 
+  }
