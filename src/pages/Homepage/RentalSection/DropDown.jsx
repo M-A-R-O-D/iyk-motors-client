@@ -16,7 +16,7 @@ const Dropdown = ({ label, options }) => {
         <div className="relative">
             <button
                 type="button"
-                className={`w-full h-14 font-bold px-3 py-2 bg-custom-gray-deep rounded-lg flex justify-between items-center focus:outline-none 
+                className={`w-full h-14 font-bold px-3 py-2 bg-custom-gray-deep rounded-lg flex justify-between items-center focus:outline-none
                     ${selectedOption ? 'text-black' : 'text-gray-500'}`}
                 onClick={handleToggle}
             >

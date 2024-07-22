@@ -1,4 +1,3 @@
-// src/pages/Homepage/BrandSection/BrandSection.jsx
 import React from 'react';
 import BrandIcon from '../../../components/BrandIcon';
 import Card from '../../../components/Card';
@@ -33,13 +32,13 @@ const reasons = [
 
 function BrandSection() {
     return (
-        <div className="flex flex-col justify-center items-center p-8 mb-15">
+        <div className="flex flex-col justify-center items-center p-8 mb-16">
             <AnimatedSection>
-                <div className="mt-15">
+                <div className="mt-6">
                     <h1 className="flex justify-center items-center p-5 text-4xl font-bold mb-8">
-                        WHY <span className='text-custom-blue pl-5'>  IYK-MOTORS</span>?
+                        WHY <span className='text-custom-blue pl-5'>IYK-MOTORS</span>?
                     </h1>
-                    <div className="flex flex-wrap justify-center items-center space-x-8">
+                    <div className="flex flex-wrap justify-center items-center gap-8">
                         {reasons.map((reason, index) => (
                             <Card key={index} icon={reason.icon} title={reason.title} description={reason.description} />
                         ))}
@@ -52,7 +51,7 @@ function BrandSection() {
                     <h1 className="flex justify-center items-center p-5 text-3xl font-bold mb-10 mt-10">
                         FEATURED <span className='text-custom-blue pl-5'>BRANDS</span>
                     </h1>
-                    <div className="flex flex-wrap justify-center items-center p-5 space-x-16">
+                    <div className="flex flex-wrap justify-evenly items-center gap-24">
                         {Object.entries(brandMap).map(([brandName, imageUrl]) => (
                             <BrandIcon key={brandName} imageUrl={imageUrl} brandName={brandName} />
                         ))}

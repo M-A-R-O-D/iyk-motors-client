@@ -18,7 +18,8 @@ module.exports = {
       height: {
         '100': "31rem",
         '105': "33.5rem",
-        '110': "43rem"
+        '110': "43rem",
+        '111': "45rem",
       },
       
       fontFamily: {
@@ -27,5 +28,7 @@ module.exports = {
     },
   },
 
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar')
+  ]
 }
