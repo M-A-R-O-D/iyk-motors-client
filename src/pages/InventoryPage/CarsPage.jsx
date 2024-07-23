@@ -1,5 +1,6 @@
 import React from 'react'
  import '../../App.css'
+ import Footer from '../../components/Footer.jsx';
 
 function CarsPage() {
   
@@ -52,7 +53,7 @@ function CarsPage() {
             <img src="/assets/bm-logo.png" alt="BMW logo" className="max-w-full max-h-full" />
           </div>
           <div className="logo-1 border m-2 border-black w-[200px] h-[84px] rounded-lg bg-[#f3f3f3] flex items-center justify-center">
-            <img src="/assets/Honda.png" alt="BMW logo" className="max-w-full max-h-full"/>
+            <img src="/assets/images/Honda.png" alt="BMW logo" className="max-w-full max-h-full"/>
           </div>
           <div className="logo-1 border m-2 border-black w-[200px] h-[84px] rounded-lg bg-[#f3f3f3] flex items-center justify-center">
             <img src="/assets/Porsche.png" alt="BMW logo" className="max-w-full max-h-full" />
@@ -61,7 +62,7 @@ function CarsPage() {
             <img src="/assets/t-logo.png" alt="BMW logo" className="max-w-full max-h-full" />
           </div>
           <div className="logo-1 border m-2 border-black w-[200px] h-[84px] rounded-lg bg-[#f3f3f3] flex items-center justify-center">
-            <img src="/assets/Mercedes.png" alt="BMW logo" className="max-w-full max-h-full" />
+            <img src="/assets/images/Mercedes.png" alt="BMW logo" className="max-w-full max-h-full" />
           </div>
           
           <div className="logo-1 border m-2 border-black w-[200px] h-[84px] rounded-lg bg-[#f3f3f3] flex items-center justify-center">
@@ -83,7 +84,7 @@ function CarsPage() {
 
         <div className="cars flex flex-row flex-wrap justify-evenly mb-14">
         <div className="logo-1 border m-4 border-black w-[120px] h-[120px] rounded-lg bg-[#f3f3f3] flex flex-col items-center justify-center ">
-          <img src="/assets/sport-car-icon-0.png" alt="BMW logo" className="max-w-full h-[75px]" />
+          <img src="/assets/images/sport-car-icon-0.png" alt="BMW logo" className="max-w-full h-[75px]" />
           <div>
             <p className='bebas-neue text-center'>sports</p>
             <p className='text-[12px] text-gray-500'>230 cars available</p>
@@ -132,7 +133,7 @@ function CarsPage() {
           </div>
           </div>
           <div className="logo-1 border m-4 border-black w-[120px] h-[120px] rounded-lg bg-[#f3f3f3] flex flex-col items-center justify-center ">
-          <img src="/assets/BMW model.png" alt="BMW logo" className="max-w-full h-[75px]" />
+          <img src="/assets/images/BMW model.png" alt="BMW logo" className="max-w-full h-[75px]" />
           <div>
             <p className='bebas-neue text-center'>BMW MODEL</p>
             <p className='text-[12px] text-gray-500'>230 cars available</p>
