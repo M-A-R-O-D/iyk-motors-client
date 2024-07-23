@@ -33,3 +33,10 @@
   .mr-2 {
     margin-right: 0.5rem; 
   }
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+  }
+  
