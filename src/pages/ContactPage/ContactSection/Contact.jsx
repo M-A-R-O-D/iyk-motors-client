@@ -19,14 +19,14 @@ const PageHeadingWrapper = styled.div`
 `;
 
 const FormContainer = styled.div`
-  width: 65%;
+  width: 80%;
   min-width: 600px;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   background-color: #fff;
   padding: 5px;
   border-radius: 5px;
-  height: auto;
+  height: 500px;
   grid-gap: 10px;
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
@@ -38,14 +38,14 @@ const FormContainer = styled.div`
 `;
 
 const TextOne = styled.b`
-  font-size: 50px;
-  color: blue;
+  font-size: 60px;
+  color: #1e7ed7;
   text-align: center;
 `;
 
 const TextTwo = styled.p`
   color: rgb(4, 4, 34);
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 `;
 

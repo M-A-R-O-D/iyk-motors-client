@@ -11,6 +11,7 @@ const InputSideWrapper = styled.form`
 const InputWrapper = styled.div`
   border: 2px solid transparent;
   width: 90%;
+  margin-top: 25px;
   padding-left: 10px;
   display: flex;
   flex-direction: column;
@@ -45,7 +46,7 @@ const SubMitButton = styled.input`
   bottom: 20px;
   right: 20px;
   padding: 10px;
-  background-color: rgb(8, 8, 63);
+  background-color: #1e7ed7;
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -92,6 +93,7 @@ const InputSide = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonLoading(true);
+    //I'm yet to enable the sending of messages to mail
     const response = await fetch('https://formspree.io/f/<your-form-id>', {
       method: 'POST',
       headers: {
@@ -112,13 +114,13 @@ const InputSide = () => {
     <InputSideWrapper onSubmit={handleSubmit}>
       <InputWrapper>
         <p>Name</p>
-        <Input type="text" required placeholder="Allen Jones" value={name} onChange={nameHandler} />
+        <Input type="text" required placeholder="Firstname Lastname" value={name} onChange={nameHandler} />
       </InputWrapper>
       <InputWrapper>
         <p>Email</p>
         <Input
           type="email"
-          placeholder="aljay126@gmail.com"
+          placeholder="iykayventures@gmail.com"
           value={email}
           onChange={emailHandler}
           required
@@ -129,7 +131,7 @@ const InputSide = () => {
         <Input
           type="tel"
           required
-          placeholder="+233546227893"
+          placeholder="+123 456 7890"
           value={phone}
           onChange={phoneHandler}
         />
