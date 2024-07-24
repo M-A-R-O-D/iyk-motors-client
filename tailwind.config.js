@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         'custom-blue': '#1e7ed7',
         'custom-black': '#000000',
-        'custom-white': '#ffffff',
+        'custom-white': '#f0efed',
         'custom-gray-deep': '#d9d9d9',
         'custom-gray-semi': '#706d6d',
         'custom-gray-light': '#f3f3f3',

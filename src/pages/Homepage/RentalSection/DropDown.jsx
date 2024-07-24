@@ -25,7 +25,7 @@ const Dropdown = ({ label, options }) => {
             </button>
 
             {isOpen && (
-                <ul className="absolute w-full mt-1 bg-white border rounded-lg shadow-lg z-20">
+                <ul className="absolute w-full mt-1 bg-white border rounded-lg shadow-lg z-20 max-h-60 overflow-y-auto">
                     {options.map((option, index) => (
                         <li
                             key={index}
