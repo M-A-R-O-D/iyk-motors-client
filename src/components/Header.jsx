@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { Icon } from '@iconify-icon/react';
 
 function Header() {
@@ -18,7 +18,7 @@ function Header() {
             <div className="container mx-auto flex items-center justify-between">
                 {/* Logo */}
                 <div className='logo ml-3'>
-                    <span className='font-semibold text-[24px] mr-1.5'>IY-KAY</span>
+                    <span className='font-semibold text-[24px] mr-1.5'>I-KAY</span>
                     <span className='font-semibold text-[24px] text-[#1e7ed7]'>MOTORS</span>
                 </div>
 
@@ -31,40 +31,49 @@ function Header() {
                 <div className='navbar mr-3 hidden md:flex'>
                     <ul className='flex space-x-10'>
                         <li>
-                            <Link
+                            <NavLink
                                 to="/"
-                                className='relative font-semibold text-[22px] text-black group'
+                                className={({ isActive }) =>
+                                    `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
+                                }
+                                end
                             >
                                 HOME
                                 <span className="absolute left-0 -bottom-1 w-full h-1 bg-[#1e7ed7] transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link
+                            <NavLink
                                 to="/cars"
-                                className='relative font-semibold text-[22px] text-black group'
+                                className={({ isActive }) =>
+                                    `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
+                                }
                             >
                                 CARS
                                 <span className="absolute left-0 -bottom-1 w-full h-1 bg-[#1e7ed7] transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link
+                            <NavLink
                                 to="/about"
-                                className='relative font-semibold text-[22px] text-black group'
+                                className={({ isActive }) =>
+                                    `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
+                                }
                             >
                                 ABOUT
                                 <span className="absolute left-0 -bottom-1 w-full h-1 bg-[#1e7ed7] transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
-                            </Link>
+                            </NavLink>
                         </li>
                         <li>
-                            <Link
+                            <NavLink
                                 to="/contact"
-                                className='relative font-semibold text-[22px] text-black group'
+                                className={({ isActive }) =>
+                                    `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
+                                }
                             >
                                 CONTACT
                                 <span className="absolute left-0 -bottom-1 w-full h-1 bg-[#1e7ed7] transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
-                            </Link>
+                            </NavLink>
                         </li>
                     </ul>
                 </div>
@@ -75,41 +84,49 @@ function Header() {
                         <nav>
                             <ul className='flex flex-col items-center space-y-6'>
                                 <li>
-                                    <Link
+                                    <NavLink
                                         to="/"
-                                        className='relative font-semibold text-[22px] text-black hover:text-custom-blue'
+                                        className={({ isActive }) =>
+                                            `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'}`
+                                        }
+                                        end
                                         onClick={closeNavbar}
                                     >
                                         HOME
-
-                                    </Link>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <Link
+                                    <NavLink
                                         to="/cars"
-                                        className='relative font-semibold text-[22px] text-black hover:text-custom-blue'
+                                        className={({ isActive }) =>
+                                            `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'}`
+                                        }
                                         onClick={closeNavbar}
                                     >
                                         CARS
-                                    </Link>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <Link
+                                    <NavLink
                                         to="/about"
-                                        className='relative font-semibold text-[22px] text-black hover:text-custom-blue'
+                                        className={({ isActive }) =>
+                                            `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'}`
+                                        }
                                         onClick={closeNavbar}
                                     >
                                         ABOUT
-                                    </Link>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <Link
+                                    <NavLink
                                         to="/contact"
-                                        className='relative font-semibold text-[22px] text-black hover:text-custom-blue'
+                                        className={({ isActive }) =>
+                                            `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'}`
+                                        }
                                         onClick={closeNavbar}
                                     >
                                         CONTACT
-                                    </Link>
+                                    </NavLink>
                                 </li>
                             </ul>
                         </nav>
