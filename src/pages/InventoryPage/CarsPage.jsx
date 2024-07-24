@@ -1,6 +1,9 @@
 import React from 'react'
  import '../../App.css'
  import Footer from '../../components/Footer.jsx';
+ import Sidebar from '../../components/sidebar.jsx';
+ import SearchBars from '../../components/SearcBars.jsx';
+ import Button from '../../components/Button';
 
 function CarsPage() {
   
@@ -28,10 +31,16 @@ function CarsPage() {
      <section className='relative w-full h-[600px] bg-cover bg-center pt-[70px]' style={{ backgroundImage: "url('/assets/nissan T3.jpg')" }}>
         <div className='p-4 '>
         <p className='bebas-neue text-white text-[56px]'>NISSAN T3</p>
-        <div className="BTNS flex">
-          <button className='bg-[#1e7ed7] w-auto h-7 bebas-neue p-1 m-2 text-white'>LEARN MORE</button>
-          <button className='bg-white bebas-neue w-auto h-7 p-1 m-2'>TEST DRIVE</button>
-        </div>
+        <div className="flex flex-col mt-5 justify-start items-center md:flex-row md:space-x-5 md:items-start space-y-4 md:space-y-0">
+                        <Button className="buy-a-car-button h-14 w-44 bg-transparent flex justify-center items-center space-x-2 border border-white text-white hover:bg-white hover:text-black bg-opacity-20 backdrop-blur-lg" >
+                            {/* <Icon icon="ri:shopping-cart-line" style={{ fontSize: '24px' }} /> */}
+                            <span>TEST DRIVE</span>
+                        </Button>
+                        <Button className="rent-a-car-button h-14 w-44 bg-transparent flex justify-center items-center space-x-2 border border-white text-white hover:bg-white hover:text-black bg-opacity-20 backdrop-blur-lg">
+                            {/* <Icon icon="maki:car-rental" style={{ fontSize: '24px' }} /> */}
+                            <span>LEARN MORE</span>
+                        </Button>
+                    </div>
         </div>
      </section>
 
@@ -154,7 +163,7 @@ function CarsPage() {
         </div>
            
   <div className="search-bars flex ">
-    <div className="relative flex items-center border-[1px] p-4 m-4 border-black rounded-xl w-96 h-14">
+    {/* <div className="relative flex items-center border-[1px] p-4 m-4 border-black rounded-xl w-96 h-14">
       <input
         type="text"
         placeholder="VEHICLE NAME OR BRAND"
@@ -177,7 +186,8 @@ function CarsPage() {
         className="w-full h-full pl-4 pr-10 border-none outline-none rounded-xl"
       />
       <span className="material-symbols-outlined absolute right-4 text-gray-400">keyboard_arrow_down</span>
-    </div>
+    </div> */}
+    <SearchBars/>
     <button className='btn w-48 h-14 m-4 bg-[#0e5a9f] text-white bebas-neue'>SEARCH</button>
   </div>
       </section>
@@ -187,7 +197,7 @@ function CarsPage() {
           <p className='text-[26px] bebas-neue'>FILTER-03</p>
         </div>
         <div className="flex">
-      <div className="sidebar w-80 h-auto p-5">
+      {/* <div className="sidebar w-80 h-auto p-5">
         <div className="relative mb-4">
           <p className="bebas-neue text-gray-500 text-[26px]">
             VEHICLE TYPE
@@ -265,7 +275,9 @@ function CarsPage() {
             keyboard_arrow_down
           </span>
         </div>
-      </div>
+      </div> */}
+
+          <Sidebar />
 
       <div className="car-blog flex-grow p-5">
         <p className="bebas-neue text-[26px]">WE HAVE FOUND <span className="text-[#1e7ed7]">365 CARS </span>FOR YOU</p>
@@ -274,6 +286,7 @@ function CarsPage() {
             <img className="w-full" src="/assets/nissan nav.png" alt="Nissan navara" />
             <h3 className="bebas-neue text-[26px]">NISSAN NAVARA <span className="text-[#1e7ed7]">- 2023</span></h3>
             <p className="mb-8">start prices from GHc 490,000</p>
+            <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button>
             <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button>
           </div>
           <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
