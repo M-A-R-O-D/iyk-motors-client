@@ -9,7 +9,7 @@ const CarDetailPage = () => {
     name: 'NISSAN NAVARA',
     year: '2023',
     price: 'GHC 435,000',
-    image: '/path/to/car/image.jpg',
+    image: '/assets/nissan nav.png',
     make: 'Nissan',
     bodyType: 'SUV',
     color: 'White',
@@ -24,7 +24,7 @@ const CarDetailPage = () => {
 
   return (
     <div>
-      <button onClick={() => setIsPopupOpen(true)} className="bg-blue-500 text-white px-4 py-2 rounded">Show Car Details</button>
+      <button onClick={() => setIsPopupOpen(true)} className="bg-blue-500 bebas-neue text-white px-4 py-2 rounded">Show Car Details</button>
       {isPopupOpen && <Popup car={car} onClose={() => setIsPopupOpen(false)} />}
     </div>
   );
