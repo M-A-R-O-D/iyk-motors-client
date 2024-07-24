@@ -4,9 +4,69 @@ import Dropdown from './DropDown';
 import { Icon } from '@iconify-icon/react';
 
 const ReservationForm = () => {
-    const makes = ['Any', 'Toyota', 'Honda', 'Ford', 'BMW', 'Mercedes'];
-    const brands = ['Any', 'Brand A', 'Brand B', 'Brand C'];
-    const types = ['Any', 'Type X', 'Type Y', 'Type Z'];
+    const makes = [
+        'Any',
+        'Toyota',
+        'Honda',
+        'Ford',
+        'BMW',
+        'Mercedes',
+        'Chevrolet',
+        'Nissan',
+        'Volkswagen',
+        'Hyundai',
+        'Kia',
+        'Audi',
+        'Jeep',
+        'Subaru',
+        'Mazda',
+        'Tesla',
+        'Porsche',
+        'Lexus',
+        'Jaguar',
+        'Volvo'
+    ];
+
+    const brands = [
+        'Any',
+        'Lexus',     // Toyota's luxury brand
+        'Infiniti',  // Nissan's luxury brand
+        'Acura',     // Honda's luxury brand
+        'Lincoln',   // Ford's luxury brand
+        'Cadillac',  // General Motors' luxury brand
+        'AMG',       // Mercedes' performance brand
+        'M',         // BMW's performance brand
+        'Audi Sport',
+        'Genesis',   // Hyundai's luxury brand
+        'Polestar',  // Volvo's performance brand
+        'GMC',       // Known for trucks and SUVs
+        'Ram',       // Known for trucks
+        'Mini',      // BMW's small car brand
+        'Fiat',      // Known for small cars
+        'Alfa Romeo' // Known for luxury and performance
+    ];
+
+    const types = [
+        'Any',
+        'Sedan',
+        'SUV',
+        'Coupe',
+        'Convertible',
+        'Truck',
+        'Hatchback',
+        'Wagon',
+        'Van',
+        'Minivan',
+        'Crossover',
+        'Electric',
+        'Hybrid',
+        'Diesel',
+        'Luxury',
+        'Performance',
+        'Compact',
+        'Pickup'
+    ];
+
     const durations = ['1 Day', '1 Week', '1 Month'];
 
     const handleSubmit = (e) => {
@@ -28,6 +88,13 @@ const ReservationForm = () => {
                     type="text"
                     placeholder="Last name"
                     className="w-full h-14 font-bold bg-custom-gray-deep px-3 py-2 rounded-lg placeholder-gray-500"
+                />
+            </div>
+            <div className="col-span-1 md:col-span-2">
+                <input
+                    type="text"
+                    placeholder="Email"
+                    className="w-full h-14 bg-custom-gray-deep px-3 py-2 rounded-lg font-bold placeholder-gray-500"
                 />
             </div>
             <div>
