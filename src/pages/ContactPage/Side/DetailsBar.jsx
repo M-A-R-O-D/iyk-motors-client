@@ -9,11 +9,12 @@ const DetailsBarWrapper = styled.div`
   padding: 30px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   height: auto;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   @media (max-width: 768px) {
-    padding-bottom: 80px;
+    padding-bottom: 30px;
     grid-row: 2;
   }
 `;
@@ -40,28 +41,29 @@ const TextTwo = styled.p`
 
 const ContactsWrapper = styled.a`
   display: flex;
-  width: 200px;
-  height: 10px;
-  margin-top: 70px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin-top: 20px;
   cursor: pointer;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
 `;
 
 const ContactText = styled.div`
   color: #fff;
-
-  font-size: 20px;
+  font-size: 18px;
   margin-left: 10px;
 `;
 
 const SocialsWrapper = styled.div`
   display: flex;
   justify-content: center;
-  display: flex;
-  height: 10px;
-  justify-content: center;
-  bottom: 50px;
-  position: absolute;
+  height: 50px;
+  margin-top: 30px; /* Add margin to create space above */
   cursor: pointer;
 `;
 
@@ -73,7 +75,6 @@ const SocialIconWrapper = styled.a`
   justify-content: center;
   align-items: center;
   margin-right: 20px;
-  ${'' /* margin-top: 20px; */}
   &:hover {
     background-color: #000099;
   }

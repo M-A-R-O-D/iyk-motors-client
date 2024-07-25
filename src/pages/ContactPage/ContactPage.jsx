@@ -1,19 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useScroll } from '../../context/ScrollContext.jsx';
 import HeroSection from './Hero/Hero.jsx';
 import FormPage from './ContactSection/Contact.jsx';
-import Footer from '../../components/Footer.jsx';
+import ContactUsFooter from '../../components/ContactUsFooter.jsx';
+
 
 function ContactPage() {
+    const { setRef } = useScroll();
+
+    useEffect(() => {
+        const element = document.getElementById('contact-hero-section');
+        setRef('contact-hero', element);
+    }, [setRef]);
+
     return (
-        <div className="flex flex-col min-h-screen">
-            <div className="flex-grow">
+        <div className="font-poppins flex flex-col min-h-screen">
+            <div id='contact-hero-section' className="flex-grow">
                 <HeroSection />
             </div>
             <div className="flex-grow">
-                <FormPage/>
+                <FormPage />
             </div>
             <div className="flex-grow">
-                <Footer />
+                <ContactUsFooter />
             </div>
         </div>
     );
