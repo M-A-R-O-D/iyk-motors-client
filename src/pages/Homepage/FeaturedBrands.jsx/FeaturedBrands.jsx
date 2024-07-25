@@ -13,9 +13,9 @@ const brandMap = {
 
 function FeaturedBrands() {
     return (
-        <section className='bg-[#f0efed] flex h-auto justify-center items-center md:h-100'>
+        <section className='bg-[#f0efed] font-poppins flex h-auto justify-center items-center md:h-100'>
             <AnimatedSection>
-                <h1 className="flex justify-center items-center p-5 text-3xl font-bold mb-10 mt-10">
+                <h1 className="flex font-poppins justify-center items-center p-5 text-3xl font-bold mb-10 mt-10">
                     FEATURED <span className='text-custom-blue pl-5'>BRANDS</span>
                 </h1>
                 <div className="flex bg-gray justify-center items-center p-5 text-3xl font-bold mb-10 mt-10">

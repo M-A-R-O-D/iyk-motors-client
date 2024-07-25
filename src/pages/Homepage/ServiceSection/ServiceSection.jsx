@@ -24,7 +24,7 @@ function ServiceSection() {
     return (
         <AnimatedSection>
             <div
-                className="relative flex flex-col justify-center items-center p-4 md:p-8"
+                className="relative font-poppins flex flex-col justify-center items-center p-4 md:p-8"
                 style={{
                     backgroundImage: 'url(assets/images/why4.jpg)',
                     backgroundSize: 'cover',
@@ -37,11 +37,11 @@ function ServiceSection() {
                 <div className="absolute inset-0 bg-black bg-opacity-80"></div>
 
                 {/* Content */}
-                <div className="relative z-10 mt-2 max-w-7xl mx-auto">
+                <div className="relative font-poppins z-10 mt-2 max-w-7xl mx-auto">
                     <h1 className="flex text-white justify-center items-center p-3 text-3xl md:text-5xl font-bold mb-8 text-center">
                         WHY <span className="text-custom-blue pl-2">I-KAY MOTORS?</span>
                     </h1>
-                    <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 px-4 md:px-0">
+                    <div className="flex font-poppins flex-wrap justify-center items-center gap-4 md:gap-8 px-4 md:px-0">
                         {reasons.map((reason, index) => (
                             <Card
                                 key={index}
