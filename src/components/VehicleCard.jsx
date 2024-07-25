@@ -2,14 +2,14 @@ import React from 'react';
 import { Icon } from '@iconify-icon/react';
 import Button from './Button';
 
-const VehicleCard = ({ vehicle }) => {
+const VehicleCard = ({ vehicle, onTestDrive }) => {
     return (
-        <div className="bg-white rounded-lg p-6 my-2 mx-2 flex flex-col justify-between h-100">
+        <div className="bg-white rounded-3xl p-6 my-2 mx-2 flex flex-col justify-between h-100">
             <div className="flex justify-center">
                 <img
                     src={vehicle.image}
                     alt={vehicle.name}
-                    className="h-40 w-auto object-cover mb-4"
+                    className="h-48 w-auto border-custom-white shadow rounded-3xl object-cover mb-4"
                 />
             </div>
             <h3 className="text-2xl font-semibold text-black mb-2">{vehicle.name}</h3>
@@ -34,7 +34,10 @@ const VehicleCard = ({ vehicle }) => {
                     <span className="font-semibold text-black">{vehicle.price}</span>
                 </div>
                 <div className="flex justify-evenly mt-6">
-                    <Button className="btn1 bg-custom-blue font-semibold text-white hover:bg-blue-700 transition duration-300 w-32 h-10 flex justify-center items-center">
+                    <Button
+                        className="btn1 bg-custom-blue font-semibold text-white hover:bg-blue-700 transition duration-300 w-32 h-10 flex justify-center items-center"
+                        onClick={onTestDrive}
+                    >
                         Test Drive
                     </Button>
 
@@ -42,7 +45,6 @@ const VehicleCard = ({ vehicle }) => {
                         Learn More
                     </Button>
                 </div>
-
             </div>
         </div>
     );

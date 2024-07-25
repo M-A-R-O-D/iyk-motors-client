@@ -4,7 +4,7 @@ import { Icon } from '@iconify-icon/react';
 
 const Footer = () => {
     return (
-        <footer className="bg-custom-blue py-8 text-white">
+        <footer className="font-poppins bg-custom-blue py-8 text-white">
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 ml-5 gap-8">
                 {/* Navigation */}
                 <div className="flex flex-col pt-4 md:justify-center md:items-center md:space-y-4 space-y-2">
@@ -25,7 +25,7 @@ const Footer = () => {
                             <Icon icon="ri:facebook-fill" className="hover:text-gray-300 transition duration-300" style={{ fontSize: "40px" }} />
                         </a>
                         <a href="https://www.twitter.com/IYKMotors" target="_blank" rel="noopener noreferrer">
-                            <Icon icon="ri:twitter-fill" className="hover:text-gray-300 transition duration-300" style={{ fontSize: "40px" }} />
+                            <Icon icon="ri:twitter-x-fill" className="hover:text-gray-300 transition duration-300" style={{ fontSize: "40px" }} />
                         </a>
                         <a href="https://www.instagram.com/IYKMotors" target="_blank" rel="noopener noreferrer">
                             <Icon icon="ri:instagram-fill" className="hover:text-gray-300 transition duration-300" style={{ fontSize: "40px" }} />

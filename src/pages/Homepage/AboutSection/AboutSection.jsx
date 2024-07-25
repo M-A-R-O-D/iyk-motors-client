@@ -9,7 +9,7 @@ function AboutSection() {
         <>
             <AnimatedSection>
                 <div
-                    className="relative bg-cover bg-center flex flex-col justify-end items-end p-8 md:p-16 text-white font-poppins"
+                    className="relative font-poppins bg-cover bg-center flex flex-col justify-end items-end p-8 md:p-16 text-white"
                     style={{
                         backgroundImage: `url('/assets/images/Rectangle27.png')`,
                         backgroundSize: 'cover',
@@ -22,9 +22,9 @@ function AboutSection() {
                     <div className="absolute inset-0 bg-black bg-opacity-50"></div>
 
                     {/* Content */}
-                    <div className='relative z-10 h-100 mt-8 md:mt-16 mr-4 md:mr-14 pt-10 md:pt-20 pr-5 md:pr-10'>
+                    <div className='relative font-poppins z-10 h-100 mt-5 md:mt-16 mr-4 md:mr-14 pt-10 md:pt-15 pr-5 md:pr-5'>
                         <div className="max-w-md md:text-left">
-                            <h1 className="text-3xl md:text-4xl font-bold mb-4">
+                            <h1 className="font-poppins text-3xl md:text-5xl font-bold mb-4">
                                 THE BEST IN THE <span className="text-custom-blue">AUTOMOBILE</span> INDUSTRY
                             </h1>
                             <p className="mb-6">
