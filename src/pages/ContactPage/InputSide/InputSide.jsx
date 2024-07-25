@@ -5,7 +5,7 @@ const InputSideWrapper = styled.form`
   height: auto;
   padding-bottom: 100px;
   position: relative;
-  padding: 10px 10px 100px 10px;
+  padding: 10px 10px 75px 10px;
 `;
 
 const InputWrapper = styled.div`
@@ -39,12 +39,13 @@ const MessageInput = styled.textarea`
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
   outline: 0px transparent !important;
+  resize: none;
 `;
 
 const SubMitButton = styled.input`
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 10px;
+  right: 25px;
   padding: 10px;
   background-color: #1e7ed7;
   color: #fff;
