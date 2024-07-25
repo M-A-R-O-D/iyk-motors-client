@@ -6,7 +6,7 @@ import Homepage from './pages/Homepage/Homepage';
 import CarsPage from './pages/InventoryPage/CarsPage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import ContactPage from './pages/ContactPage/ContactPage';
-import { ScrollProvider } from './context/ScrollContext'; // Adjust the path as necessary
+import { ScrollProvider } from './context/ScrollContext';
 
 function App() {
   return (

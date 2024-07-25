@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import AnimatedSection from '../../../components/Animator';
 import CustomSlider from '../../../components/CustomSlider';
 import VehicleCard from '../../../components/VehicleCard';
+import Modal from './Modal';
+import ScheduleTestDriveForm from './TestdriveForm';
 
 let vehicleList = [
     {
@@ -34,24 +36,41 @@ let vehicleList = [
     },
 ];
 
-
 const FeaturedVehicles = ({ vehicles = vehicleList }) => {
+    const [isModalOpen, setModalOpen] = useState(false);
+
+    const handleTestDriveClick = () => {
+        setModalOpen(true);
+    };
+
+    const handleCloseModal = () => {
+        setModalOpen(false);
+    };
+
     return (
-        <section className="bg-[#f0efed] h-111 py-10">
+        <section className="font-poppins bg-[#f0efed] h-111 py-10">
             <div className="container my-2 mx-auto px-4">
                 <h2 className="text-4xl font-bold text-start text-black my-1">
-                    Our <span className="text-custom-blue">Bestsellers</span>
+                    <span className="text-custom-blue">Latest</span> arrivals
                 </h2>
-                <div className='my-10 '>
+                <div className='my-10'>
                     <AnimatedSection>
                         <CustomSlider>
                             {vehicles.map((vehicle, index) => (
-                                <VehicleCard key={index} vehicle={vehicle} />
+                                <VehicleCard
+                                    key={index}
+                                    vehicle={vehicle}
+                                    onTestDrive={handleTestDriveClick}
+                                />
                             ))}
                         </CustomSlider>
                     </AnimatedSection>
                 </div>
             </div>
+
+            <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
+                <ScheduleTestDriveForm onClose={handleCloseModal} />
+            </Modal>
         </section>
     );
 };

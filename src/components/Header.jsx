@@ -14,12 +14,12 @@ function Header() {
     };
 
     return (
-        <header className="bg-white shadow py-4 fixed w-full top-0 left-0 z-50">
+        <header className="bg-white font-poppins shadow py-4 fixed w-full top-0 left-0 z-50">
             <div className="container mx-auto flex items-center justify-between">
                 {/* Logo */}
                 <div className='logo ml-3'>
-                    <span className='font-semibold text-[24px] mr-1.5'>I-KAY</span>
-                    <span className='font-semibold text-[24px] text-[#1e7ed7]'>MOTORS</span>
+                    <span className='font-semibold text-[18px] mr-1.5'>I-KAY</span>
+                    <span className='font-semibold text-[18px] text-[#1e7ed7]'>MOTORS</span>
                 </div>
 
                 {/* Hamburger Icon */}
@@ -34,7 +34,7 @@ function Header() {
                             <NavLink
                                 to="/"
                                 className={({ isActive }) =>
-                                    `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
+                                    `relative font-semibold text-[16px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
                                 }
                                 end
                             >
@@ -46,7 +46,7 @@ function Header() {
                             <NavLink
                                 to="/cars"
                                 className={({ isActive }) =>
-                                    `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
+                                    `relative font-semibold text-[16px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
                                 }
                             >
                                 CARS
@@ -57,10 +57,10 @@ function Header() {
                             <NavLink
                                 to="/about"
                                 className={({ isActive }) =>
-                                    `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
+                                    `relative font-semibold text-[16px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
                                 }
                             >
-                                ABOUT
+                                ABOUT US
                                 <span className="absolute left-0 -bottom-1 w-full h-1 bg-[#1e7ed7] transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
                             </NavLink>
                         </li>
@@ -68,10 +68,10 @@ function Header() {
                             <NavLink
                                 to="/contact"
                                 className={({ isActive }) =>
-                                    `relative font-semibold text-[22px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
+                                    `relative font-semibold text-[16px] ${isActive ? 'text-[#1e7ed7]' : 'text-black'} group`
                                 }
                             >
-                                CONTACT
+                                CONTACT US
                                 <span className="absolute left-0 -bottom-1 w-full h-1 bg-[#1e7ed7] transition-transform duration-300 transform scale-x-0 group-hover:scale-x-100"></span>
                             </NavLink>
                         </li>
@@ -92,7 +92,7 @@ function Header() {
                                         end
                                         onClick={closeNavbar}
                                     >
-                                        HOME
+                                        Home
                                     </NavLink>
                                 </li>
                                 <li>
@@ -103,7 +103,7 @@ function Header() {
                                         }
                                         onClick={closeNavbar}
                                     >
-                                        CARS
+                                        Cars
                                     </NavLink>
                                 </li>
                                 <li>
@@ -114,7 +114,7 @@ function Header() {
                                         }
                                         onClick={closeNavbar}
                                     >
-                                        ABOUT
+                                        About Us
                                     </NavLink>
                                 </li>
                                 <li>
@@ -125,7 +125,7 @@ function Header() {
                                         }
                                         onClick={closeNavbar}
                                     >
-                                        CONTACT
+                                        Contact Us
                                     </NavLink>
                                 </li>
                             </ul>
