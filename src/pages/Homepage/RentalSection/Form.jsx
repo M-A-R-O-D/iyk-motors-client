@@ -80,7 +80,7 @@ const ReservationForm = () => {
                 <input
                     type="text"
                     placeholder="First name"
-                    className="w-auto h-14 font-bold bg-custom-gray-deep px-3 py-2 rounded-lg placeholder-gray-500"
+                    className="w-full h-14 font-bold bg-custom-gray-deep px-3 py-2 rounded-lg placeholder-gray-500"
                 />
             </div>
             <div>

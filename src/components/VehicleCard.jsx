@@ -9,7 +9,7 @@ const VehicleCard = ({ vehicle, onTestDrive }) => {
                 <img
                     src={vehicle.image}
                     alt={vehicle.name}
-                    className="h-48 w-auto border-custom-white shadow rounded-3xl object-cover mb-4"
+                    className="h-auto w-auto border-custom-white shadow rounded-3xl object-cover mb-4"
                 />
             </div>
             <h3 className="text-2xl font-semibold text-black mb-2">{vehicle.name}</h3>
