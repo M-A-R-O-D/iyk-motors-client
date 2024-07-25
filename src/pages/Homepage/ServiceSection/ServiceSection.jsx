@@ -38,7 +38,7 @@ function ServiceSection() {
 
                 {/* Content */}
                 <div className="relative font-poppins z-10 mt-2 max-w-7xl mx-auto">
-                    <h1 className="flex text-white justify-center items-center p-3 text-3xl md:text-5xl font-bold mb-8 text-center">
+                    <h1 className="flex text-white justify-center items-center p-3 text-2xl md:text-5xl font-bold mb-8 text-center">
                         WHY <span className="text-custom-blue pl-2">I-KAY MOTORS?</span>
                     </h1>
                     <div className="flex font-poppins flex-wrap justify-center items-center gap-4 md:gap-8 px-4 md:px-0">

@@ -50,7 +50,7 @@ const FeaturedVehicles = ({ vehicles = vehicleList }) => {
     return (
         <section className="font-poppins bg-[#f0efed] h-111 py-10">
             <div className="container my-2 mx-auto px-4">
-                <h2 className="text-4xl font-bold text-start text-black my-1">
+                <h2 className="text-2xl font-bold md:text-4xl text-start text-black my-1">
                     <span className="text-custom-blue">Latest</span> arrivals
                 </h2>
                 <div className='my-10'>
