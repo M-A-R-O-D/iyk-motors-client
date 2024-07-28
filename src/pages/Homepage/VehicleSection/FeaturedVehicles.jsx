@@ -9,6 +9,7 @@ let vehicleList = [
     {
         name: 'Nissan Navara 2023',
         description: 'A robust pickup truck known for its off-road capabilities and comfort.',
+        condition: 'New/Used',
         speed: '112 mph',
         price: 'Starting price GH¢150,000',
         image: '/assets/nissan_nav.png',
@@ -16,6 +17,7 @@ let vehicleList = [
     {
         name: 'Toyota Tundra 2024',
         description: 'A full-sized pickup truck offering power, durability, and luxury.',
+        condition: 'New',
         speed: '110 mph',
         price: 'Starting price GH¢200,000',
         image: '/assets/thundra.jpg',
@@ -23,6 +25,7 @@ let vehicleList = [
     {
         name: 'BMW 3301 2024',
         description: 'A luxury sedan with sporty performance and advanced features.',
+        condition: 'New',
         speed: '155 mph',
         price: 'Starting price GH¢250,000',
         image: '/assets/bmw.jpg',
@@ -30,6 +33,7 @@ let vehicleList = [
     {
         name: 'Nissan Navara XE 2024',
         description: 'A refined and powerful pickup truck designed for both work and play.',
+        condition: 'New',
         speed: '115 mph',
         price: 'Starting price GH¢170,000',
         image: '/assets/XE.jpg',

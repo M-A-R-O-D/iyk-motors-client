@@ -33,7 +33,7 @@ const FormContainer = styled.div`
     width: 90%;
     max-width: 500px;
     min-width: 0px;
-    grid-gap: 0px;
+    grid-gap: 20px;
   }
 `;
 

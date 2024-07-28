@@ -4,7 +4,7 @@ import Button from './Button';
 
 const VehicleCard = ({ vehicle, onTestDrive }) => {
     return (
-        <div className="bg-white rounded-3xl p-6 my-2 mx-2 flex flex-col justify-between h-100">
+        <div className="bg-white rounded-3xl p-6 my-2 mx-2 flex flex-col justify-between h-105">
             <div className="flex justify-center">
                 <img
                     src={vehicle.image}
@@ -17,6 +17,14 @@ const VehicleCard = ({ vehicle, onTestDrive }) => {
                 <p className="text-gray-700 mb-2">{vehicle.description}</p>
             </div>
             <div>
+                <div className="flex items-center mb-4">
+                    <Icon
+                        icon="material-symbols:car-tag"
+                        className="text-custom-blue mr-2"
+                        style={{ fontSize: '24px' }}
+                    />
+                    <span className="font-semibold text-black">{vehicle.condition}</span>
+                </div>
                 <div className="flex items-center mb-4">
                     <Icon
                         icon="fluent:top-speed-20-filled"

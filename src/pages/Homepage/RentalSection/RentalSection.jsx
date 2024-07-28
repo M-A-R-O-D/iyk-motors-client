@@ -12,7 +12,7 @@ function RentalSection() {
   }, [setRef]);
 
   return (
-    <div id="rentals-section" className="rental-section font-poppins h-auto flex flex-col md:h-110 md:flex-row items-center md:space-y-0 md:space-x-10 p-6 md:p-10 bg-custom-white">
+    <div id="rentals-section" className="rental-section  font-poppins h-auto flex flex-col md:h-110 md:flex-row items-center md:space-y-0 md:space-x-10 p-6 md:p-10 bg-white">
       <div className="flex-1 p-6 md:p-8 transform md:-translate-y-10 lg:-translate-y-24">
         <AnimatedSection>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-black mb-4 md:mb-6 text-center md:text-left">
@@ -31,7 +31,7 @@ function RentalSection() {
       </div>
 
       <AnimatedSection>
-        <div className="flex-1 font-poppins bg-custom-white p-3 md:p-8 rounded-lg">
+        <div className="flex-1 font-poppins bg-white p-3 md:p-8 rounded-lg">
           <h3 className="text-sm sm:text-xl md:text-1xl font-bold mb-4 text-center md:text-left">
             Fill out the form to book.
           </h3>
