@@ -17,13 +17,13 @@ function Homepage() {
                 <FeaturedVehicles />
             </div>
             <div className="flex-grow">
-                <ServiceSection />
+                <AboutSection />
             </div>
+            {/* <div className="flex-grow">
+                <ServiceSection />
+            </div> */}
             <div className="flex-grow">
                 <RentalSection />
-            </div>
-            <div className="flex-grow">
-                <AboutSection />
             </div>
             <div className="flex-grow">
                 <FeaturedBrands />
