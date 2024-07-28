@@ -5,17 +5,17 @@ function TeamSection() {
         {
             name: 'John Doe',
             role: 'CEO',
-            image: 'https://via.placeholder.com/150',
-        },
-        {
-            name: 'Jane Smith',
-            role: 'Sales Manager',
-            image: 'https://via.placeholder.com/150',
+            image: 'assets/images/profile1.jpg',
         },
         {
             name: 'Mike Johnson',
+            role: 'Sales Manager',
+            image: 'assets/images/profile3.jpg',
+        },
+        {
+            name: 'Jane Smith',
             role: 'Service Manager',
-            image: 'https://via.placeholder.com/150',
+            image: 'assets/images/profile2.jpg',
         },
     ];
 
@@ -28,7 +28,7 @@ function TeamSection() {
                         <img
                             src={member.image}
                             alt={member.name}
-                            className="w-full h-auto rounded-full mb-4"
+                            className="w-36 h-36 rounded-full mb-4"
                         />
                         <h3 className="text-xl text-center text-custom-blue font-semibold">{member.name}</h3>
                         <p className="text-black text-center">{member.role}</p>

@@ -10,7 +10,7 @@ function VisionSection() {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     minHeight: '80vh',
-                    width: '60%',
+                    width: '90%',
                 }}>
             </div>
 
