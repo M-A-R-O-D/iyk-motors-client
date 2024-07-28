@@ -14,7 +14,7 @@ function ContactPage() {
     }, [setRef]);
 
     return (
-        <div className="font-poppins flex flex-col min-h-screen">
+        <div className="font-poppins flex flex-col">
             <div id='contact-hero-section' className="flex-grow">
                 <HeroSection />
             </div>

@@ -17,6 +17,7 @@ function HeroSection() {
             <div className="relative font-poppins h-111 bg-cover bg-center flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start p-8 md:p-16"
                 style={{
                     backgroundImage: 'url(assets/images/OW_Home_DreamDaysDHero_L.png)',
+                    // backgroundImage: 'url(assets/images/car4.jpg)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     minHeight: '100vh',
