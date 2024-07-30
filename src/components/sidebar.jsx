@@ -1,11 +1,10 @@
-// src/components/Sidebar.jsx
 import React, { useState } from 'react';
 
-function Sidebar({ onVehicleTypeChange }) {
+function Sidebar({ onFilterChange }) {
   const [vehicleTypeOpen, setVehicleTypeOpen] = useState(false);
 
   const handleVehicleTypeClick = (type) => {
-    onVehicleTypeChange(type);
+    onFilterChange({ vehicleType: type });
   };
 
   return (

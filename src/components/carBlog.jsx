@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import carData from './carData.json'; // Import the JSON data
 import CarsDetailPage from './CarsDetailPage'; // Import the CarsDetailPage component
-import Sidebar from './sidebar'; // Import Sidebar
+import Sidebar from './sidebar';
 
 function CarBlog() {
   const [filters, setFilters] = useState({ vehicleType: '', transmissionType: '' });
@@ -27,7 +27,7 @@ function CarBlog() {
             <div key={index} className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
               <img className="w-full h-48" src={car.image} alt={car.name} />
               <h3 className="bebas-neue text-[26px]">{car.name} <span className="text-[#1e7ed7]">- {car.year}</span></h3>
-              <p className="mb-8">start prices from {car.price}</p>
+              <p className="mb-8">Start prices from {car.price}</p>
               <CarsDetailPage />
             </div>
           ))}
