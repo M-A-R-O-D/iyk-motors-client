@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import { ScrollProvider } from './context/ScrollContext';
 
+
 function App() {
   return (
     <Router>
@@ -20,6 +21,7 @@ function App() {
               <Route path="/cars" element={<CarsPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              
             </Routes>
           </div>
         </div>

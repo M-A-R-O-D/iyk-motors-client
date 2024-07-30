@@ -16,7 +16,7 @@ function CarBlog() {
     .filter(car => !filters.transmissionType || car.transmission === filters.transmissionType);
 
   return (
-    <div className="flex">
+    <div className="flex ">
       <Sidebar onFilterChange={handleFilterChange} />
       <div className="car-blog flex-grow p-5">
         <p className="bebas-neue text-[26px]">

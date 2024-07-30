@@ -8,42 +8,42 @@
             "year": 2022,
             "price": "GHc 120,000",
             "transmission": "Automatic",
-            "image": "/assets/toyota_yaris.jpg"
+            "image": "/assets/yaris.jpg"
           },
           {
             "name": "Honda Fit",
             "year": 2021,
             "price": "GHc 115,000",
             "transmission": "Manual",
-            "image": "/assets/honda_fit.jpg"
+            "image": "/assets/fit.jpg"
           },
           {
             "name": "Ford Fiesta",
             "year": 2023,
             "price": "GHc 130,000",
             "transmission": "Automatic",
-            "image": "/assets/ford_fiesta.jpg"
+            "image": "/assets/fiesta.jpg"
           },
           {
             "name": "Chevrolet Spark",
             "year": 2020,
             "price": "GHc 110,000",
             "transmission": "Manual",
-            "image": "/assets/chevrolet_spark.jpg"
+            "image": "/assets/spark.jpeg"
           },
           {
             "name": "Hyundai Accent",
             "year": 2021,
             "price": "GHc 125,000",
             "transmission": "Automatic",
-            "image": "/assets/hyundai_accent.jpg"
+            "image": "/assets/accent.jpg"
           },
           {
             "name": "Nissan Versa",
             "year": 2022,
             "price": "GHc 120,000",
             "transmission": "Manual",
-            "image": "/assets/nissan_versa.jpg"
+            "image": "/assets/versa.jpg"
           }
         ]
       },
@@ -55,42 +55,42 @@
             "year": 2022,
             "price": "GHc 850,000",
             "transmission": "Automatic",
-            "image": "/assets/porsche_911.jpg"
+            "image": "/assets/911.jpg"
           },
           {
             "name": "Ford Mustang",
             "year": 2021,
             "price": "GHc 600,000",
             "transmission": "Manual",
-            "image": "/assets/ford_mustang.jpg"
+            "image": "/assets/mustang.jpg"
           },
           {
             "name": "Chevrolet Camaro",
             "year": 2023,
             "price": "GHc 750,000",
             "transmission": "Automatic",
-            "image": "/assets/chevrolet_camaro.jpg"
+            "image": "/assets/camaro.jpg"
           },
           {
             "name": "BMW M3",
             "year": 2020,
             "price": "GHc 700,000",
             "transmission": "Manual",
-            "image": "/assets/bmw_m3.jpg"
+            "image": "/assets/m3.jpeg"
           },
           {
             "name": "Audi R8",
             "year": 2021,
             "price": "GHc 1,200,000",
             "transmission": "Automatic",
-            "image": "/assets/audi_r8.jpg"
+            "image": "/assets/r8.jpg"
           },
           {
             "name": "Nissan GT-R",
             "year": 2022,
             "price": "GHc 950,000",
             "transmission": "Manual",
-            "image": "/assets/nissan_gtr.jpg"
+            "image": "/assets/gtr.jpg"
           }
         ]
       },
@@ -102,42 +102,42 @@
             "year": 2022,
             "price": "GHc 300,000",
             "transmission": "Automatic",
-            "image": "/assets/toyota_sienna.jpg"
+            "image": "/assets/sienna.jpg"
           },
           {
             "name": "Honda Odyssey",
             "year": 2021,
             "price": "GHc 290,000",
             "transmission": "Manual",
-            "image": "/assets/honda_odyssey.jpg"
+            "image": "/assets/odyssey.jpg"
           },
           {
             "name": "Chrysler Pacifica",
             "year": 2023,
             "price": "GHc 320,000",
             "transmission": "Automatic",
-            "image": "/assets/chrysler_pacifica.jpg"
+            "image": "/assets/pacifica.jpeg"
           },
           {
             "name": "Kia Carnival",
             "year": 2020,
             "price": "GHc 280,000",
             "transmission": "Manual",
-            "image": "/assets/kia_carnival.jpg"
+            "image": "/assets/carnival.jpeg"
           },
           {
             "name": "Chevrolet Traverse",
             "year": 2021,
             "price": "GHc 310,000",
             "transmission": "Automatic",
-            "image": "/assets/chevrolet_traverse.jpg"
+            "image": "/assets/traverse.jpg"
           },
           {
             "name": "Ford Explorer",
             "year": 2022,
             "price": "GHc 330,000",
             "transmission": "Manual",
-            "image": "/assets/ford_explorer.jpg"
+            "image": "/assets/explorer.jpg"
           }
         ]
       },
@@ -149,42 +149,42 @@
             "year": 2022,
             "price": "GHc 400,000",
             "transmission": "Automatic",
-            "image": "/assets/jeep_wrangler.jpg"
+            "image": "/assets/wrangler.jpg"
           },
           {
             "name": "Toyota Land Cruiser",
             "year": 2021,
             "price": "GHc 450,000",
             "transmission": "Manual",
-            "image": "/assets/toyota_land_cruiser.jpg"
+            "image": "/assets/cruiser.jpg"
           },
           {
             "name": "Land Rover Defender",
             "year": 2023,
             "price": "GHc 500,000",
             "transmission": "Automatic",
-            "image": "/assets/land_rover_defender.jpg"
+            "image": "/assets/defender.jpg"
           },
           {
             "name": "Ford Bronco",
             "year": 2020,
             "price": "GHc 420,000",
             "transmission": "Manual",
-            "image": "/assets/ford_bronco.jpg"
+            "image": "/assets/bronco.jpg"
           },
           {
             "name": "Nissan Patrol",
             "year": 2021,
             "price": "GHc 430,000",
             "transmission": "Automatic",
-            "image": "/assets/nissan_patrol.jpg"
+            "image": "/assets/patrol.jpg"
           },
           {
             "name": "Mitsubishi Pajero",
             "year": 2022,
             "price": "GHc 440,000",
             "transmission": "Manual",
-            "image": "/assets/mitsubishi_pajero.jpg"
+            "image": "/assets/pajero.jpg"
           }
         ]
       },
@@ -196,42 +196,42 @@
             "year": 2022,
             "price": "GHc 500,000",
             "transmission": "Automatic",
-            "image": "/assets/ford_f150.jpg"
+            "image": "/assets/f150.jpg"
           },
           {
             "name": "Chevrolet Silverado",
             "year": 2021,
             "price": "GHc 480,000",
             "transmission": "Manual",
-            "image": "/assets/chevrolet_silverado.jpg"
+            "image": "/assets/silvarado.jpg"
           },
           {
             "name": "Ram 1500",
             "year": 2023,
             "price": "GHc 520,000",
             "transmission": "Automatic",
-            "image": "/assets/ram_1500.jpg"
+            "image": "/assets/1500.jpg"
           },
           {
             "name": "Toyota Tacoma",
             "year": 2020,
             "price": "GHc 460,000",
             "transmission": "Manual",
-            "image": "/assets/toyota_tacoma.jpg"
+            "image": "/assets/tacoma.jpg"
           },
           {
             "name": "Nissan Frontier",
             "year": 2021,
             "price": "GHc 470,000",
             "transmission": "Automatic",
-            "image": "/assets/nissan_frontier.jpg"
+            "image": "/assets/frontier.jpg"
           },
           {
             "name": "GMC Sierra",
             "year": 2022,
             "price": "GHc 490,000",
             "transmission": "Manual",
-            "image": "/assets/gmc_sierra.jpg"
+            "image": "/assets/sierra.jpg"
           }
         ]
       },
@@ -243,42 +243,42 @@
             "year": 2022,
             "price": "GHc 300,000",
             "transmission": "Automatic",
-            "image": "/assets/mazda_mx5.jpg"
+            "image": "/assets/mx5.jpg"
           },
           {
             "name": "BMW Z4",
             "year": 2021,
             "price": "GHc 450,000",
             "transmission": "Manual",
-            "image": "/assets/bmw_z4.jpg"
+            "image": "/assets/z4.jpg"
           },
           {
             "name": "Audi A5 Cabriolet",
             "year": 2023,
             "price": "GHc 500,000",
             "transmission": "Automatic",
-            "image": "/assets/audi_a5.jpg"
+            "image": "/assets/a5.jpg"
           },
           {
             "name": "Mercedes-Benz C-Class",
             "year": 2020,
             "price": "GHc 480,000",
             "transmission": "Manual",
-            "image": "/assets/mercedes_c_class.jpg"
+            "image": "/assets/class.jpeg"
           },
           {
             "name": "Porsche 718 Boxster",
             "year": 2021,
             "price": "GHc 600,000",
             "transmission": "Automatic",
-            "image": "/assets/porsche_boxster.jpg"
+            "image": "/assets/boxster.jpg"
           },
           {
             "name": "Chevrolet Corvette",
             "year": 2022,
             "price": "GHc 700,000",
             "transmission": "Manual",
-            "image": "/assets/chevrolet_corvette.jpg"
+            "image": "/assets/corvette.jpg"
           }
         ]
       },
@@ -290,42 +290,42 @@
             "year": 2023,
             "price": "GHc 600,000",
             "transmission": "Automatic",
-            "image": "/assets/toyota_highlander.jpg"
+            "image": "/assets/highlander.png"
           },
           {
             "name": "Honda CR-V",
             "year": 2021,
             "price": "GHc 550,000",
             "transmission": "Manual",
-            "image": "/assets/honda_crv.jpg"
+            "image": "/assets/images/HOnda CR-V.webp"
           },
           {
             "name": "Ford Escape",
             "year": 2022,
             "price": "GHc 580,000",
             "transmission": "Automatic",
-            "image": "/assets/ford_escape.jpg"
+            "image": "/assets/escape.jpg"
           },
           {
             "name": "Chevrolet Equinox",
             "year": 2020,
             "price": "GHc 530,000",
             "transmission": "Manual",
-            "image": "/assets/chevrolet_equinox.jpg"
+            "image": "/assets/equinox.jpg"
           },
           {
             "name": "Nissan Rogue",
             "year": 2021,
             "price": "GHc 560,000",
             "transmission": "Automatic",
-            "image": "/assets/nissan_rogue.jpg"
+            "image": "/assets/rogue.jpg"
           },
           {
             "name": "Hyundai Santa Fe",
             "year": 2022,
             "price": "GHc 570,000",
             "transmission": "Manual",
-            "image": "/assets/hyundai_santa_fe.jpg"
+            "image": "/assets/fe.jpg"
           }
         ]
       },
@@ -337,42 +337,42 @@
             "year": 2022,
             "price": "GHc 450,000",
             "transmission": "Automatic",
-            "image": "/assets/toyota_camry.jpg"
+            "image": "/assets/camry.jpg"
           },
           {
             "name": "Honda Accord",
             "year": 2021,
             "price": "GHc 430,000",
             "transmission": "Manual",
-            "image": "/assets/honda_accord.jpg"
+            "image": "/assets/accord.jpg"
           },
           {
             "name": "Nissan Altima",
             "year": 2023,
             "price": "GHc 460,000",
             "transmission": "Automatic",
-            "image": "/assets/nissan_altima.jpg"
+            "image": "/assets/altima.png"
           },
           {
             "name": "Chevrolet Malibu",
             "year": 2020,
             "price": "GHc 420,000",
             "transmission": "Manual",
-            "image": "/assets/chevrolet_malibu.jpg"
+            "image": "/assets/malibu.jpg"
           },
           {
             "name": "Hyundai Sonata",
             "year": 2021,
             "price": "GHc 440,000",
             "transmission": "Automatic",
-            "image": "/assets/hyundai_sonata.jpg"
+            "image": "/assets/sonata.jpg"
           },
           {
             "name": "Kia Optima",
             "year": 2022,
             "price": "GHc 430,000",
             "transmission": "Manual",
-            "image": "/assets/kia_optima.jpg"
+            "image": "/assets/optima.jpg"
           }
         ]
       }
