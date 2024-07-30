@@ -6,6 +6,7 @@ import VisionSection from './Vision/VisionSection';
 import TeamSection from './TeamSection/TeamSection';
 import Testimonials from './TestimonialSection/Testimonials';
 import Footer from '../../components/Footer';
+import ScrollToTopBtn from '../../components/ScrollToTopBtn';
 
 function AboutPage() {
     return (
@@ -31,6 +32,7 @@ function AboutPage() {
             <div className='flex-grow'>
                 <Footer />
             </div>
+            <ScrollToTopBtn onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} />
         </div>
     )
 }

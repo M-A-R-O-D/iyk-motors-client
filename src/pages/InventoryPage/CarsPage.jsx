@@ -7,6 +7,7 @@ import Button from '../../components/Button';
 import Popup from '../../components/Popup.jsx';
 import CarsDetailPage from '../../components/CarsDetailPage.jsx';
 import CarBlog from "../../components/carBlog.jsx";
+import ScrollToTopBtn from '../../components/ScrollToTopBtn.jsx';
 
 
 function CarsPage() {
@@ -332,6 +333,7 @@ function CarsPage() {
           <Footer />
         </div>
       </section>
+      <ScrollToTopBtn onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} />
 
     </>
   )
