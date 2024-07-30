@@ -6,6 +6,8 @@ import React from 'react'
  import Button from '../../components/Button';
  import Popup from '../../components/Popup.jsx';
  import CarsDetailPage from'../../components/CarsDetailPage.jsx';
+ import CarBlog from "../../components/carBlog.jsx";
+
 
 function CarsPage() {
   // const [showPopup, setShowPopup] = useState(false);
@@ -290,8 +292,9 @@ function CarsPage() {
           <Sidebar />
 
       <div className="car-blog flex-grow p-5">
-        <p className="bebas-neue text-[26px]">WE HAVE FOUND <span className="text-[#1e7ed7]">365 CARS </span>FOR YOU</p>
+        <p className="bebas-neue text-[26px]">WE HAVE FOUND <span className="text-[#1e7ed7]">6 CARS </span>FOR YOU</p>
         <div className="flex flex-wrap">
+          <CarBlog/>
           <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
             <img className="w-full" src="/assets/nissan nav.png" alt="Nissan navara" />
             <h3 className="bebas-neue text-[26px]">NISSAN NAVARA <span className="text-[#1e7ed7]">- 2023</span></h3>
