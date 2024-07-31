@@ -15,7 +15,7 @@ function MissionSection() {
             </div>
             <div className="relative font-poppins bg-cover bg-center flex flex-col md:flex-row items-center md:items-start justify-center md:justify-start p-8 md:p-16"
                 style={{
-                    backgroundImage: 'url(assets/images/car4.jpg)',
+                    backgroundImage: 'url(assets/images/car3.jpg)',
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
                     minHeight: '80vh',
