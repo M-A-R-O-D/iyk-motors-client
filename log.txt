@@ -1,0 +1,9 @@
+File /home/saintdannyyy/PROJECTS/iyk-motors-client/src/index.css
+
+
+Warnings :
+1 : the definition is not identified
+2 : the definition is not identified
+3 : the definition is not identified
+
+Your trace has 0 errors and 3 warnings.
