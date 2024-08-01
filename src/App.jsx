@@ -7,11 +7,13 @@ import CarsPage from './pages/InventoryPage/CarsPage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import { ScrollProvider } from './context/ScrollContext';
+import { Toaster } from 'react-hot-toast';
 
 
 function App() {
   return (
     <Router>
+      <Toaster position='top-center' toastoptions={{ duration: 3000 }} />
       <ScrollProvider>
         <div className="flex flex-col min-h-screen overflow-x-hidden">
           <Header />
@@ -21,7 +23,7 @@ function App() {
               <Route path="/cars" element={<CarsPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="/contact" element={<ContactPage />} />
-              
+
             </Routes>
           </div>
         </div>
