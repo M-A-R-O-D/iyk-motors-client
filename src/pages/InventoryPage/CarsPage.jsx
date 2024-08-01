@@ -6,7 +6,8 @@ import SearchBars from '../../components/SearcBars.jsx';
 import Button from '../../components/Button';
 import Popup from '../../components/Popup.jsx';
 import CarsDetailPage from '../../components/CarsDetailPage.jsx';
- import CarBlog from "../../components/carBlog.jsx";
+import CarBlog from "../../components/carBlog.jsx";
+import ScrollToTopBtn from "../../components/ScrollToTopBtn.jsx";
 
 
 function CarsPage() {
@@ -276,51 +277,51 @@ function CarsPage() {
           <div className="car-blog flex-grow p-5">
             {/* <p className="bebas-neue text-[26px]">WE HAVE FOUND <span className="text-[#1e7ed7]">6 CARS </span>FOR YOU</p> */}
             <div className="flex flex-wrap">
-          <CarBlog/>
+              <CarBlog />
               {/* <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
                 <img className="w-full" src="/assets/nissan nav.png" alt="Nissan navara" />
                 <h3 className="bebas-neue text-[26px]">NISSAN NAVARA <span className="text-[#1e7ed7]">- 2023</span></h3>
                 <p className="mb-8">start prices from GHc 490,000</p> */}
-                {/* <button onClick={handleButtonClick} className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button>
+              {/* <button onClick={handleButtonClick} className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button>
               <Popup show={showPopup} onClose={handleClosePopup} /> */}
 
-                {/* <CarsDetailPage /> */}
+              {/* <CarsDetailPage /> */}
 
               {/* </div> */}
               {/* <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
                 <img className="w-full" src="/assets/XE.jpg" alt="Nissan navara" />
                 <h3 className="bebas-neue text-[26px]">NISSAN NAVARA XE <span className="text-[#1e7ed7]"> + - 2024</span></h3>
                 <p className="mb-8">start prices from GHc 502,425</p> */}
-                {/* <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button> */}
-                {/* <CarsDetailPage /> */}
+              {/* <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button> */}
+              {/* <CarsDetailPage /> */}
               {/* </div> */}
               {/* <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
                 <img className="w-full h-48" src="/assets/Thigh.jpg" alt="Nissan navara" />
                 <h3 className="bebas-neue text-[26px]">2023 TOYOTA <span className="text-[#1e7ed7]">HIGHLANDER</span></h3>
                 <p className="mb-8">start prices from $ 10,000</p> */}
-                {/* <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button> */}
-                {/* <CarsDetailPage /> */}
+              {/* <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button> */}
+              {/* <CarsDetailPage /> */}
               {/* </div> */}
               {/* <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
                 <img className="w-full" src="/assets/thundra.jpg" alt="Nissan navara" />
                 <h3 className="bebas-neue text-[26px]">TOYOTA THUNDRA <span className="text-[#1e7ed7]">- 2022</span></h3>
                 <p className="mb-8">start prices from GHc 2,346,250</p> */}
-                {/* <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button> */}
-                {/* <CarsDetailPage /> */}
+              {/* <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button> */}
+              {/* <CarsDetailPage /> */}
               {/* </div> */}
               {/* <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
                 <img className="w-full" src="/assets/bmw.jpg" alt="Nissan navara" />
                 <h3 className="bebas-neue text-[26px]">BMW 330I<span className="text-[#1e7ed7]">- 2020</span></h3>
                 <p className="mb-8">start prices from GHc 688,750</p> */}
-                {/* <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button> */}
-                {/* <CarsDetailPage /> */}
+              {/* <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button> */}
+              {/* <CarsDetailPage /> */}
               {/* </div> */}
               {/* <div className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
                 <img className="w-full h-48" src="/assets/h21.jpg" alt="Nissan navara" />
                 <h3 className="bebas-neue text-[26px]">HONDA CR-V<span className="text-[#1e7ed7]">- 2021</span></h3>
                 <p className="mb-8">start prices from GHc 430,000</p> */}
-                {/* <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button> */}
-                {/* <CarsDetailPage /> */}
+              {/* <button className="w-72 h-10 bg-[#0e5a9f] text-white bebas-neue">PROCEED TO BUY</button> */}
+              {/* <CarsDetailPage /> */}
               {/* </div> */}
             </div>
           </div>
@@ -332,7 +333,7 @@ function CarsPage() {
           <Footer />
         </div>
       </section>
-
+      <ScrollToTopBtn onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} />
     </>
   )
 }

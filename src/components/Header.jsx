@@ -18,7 +18,7 @@ function Header() {
             <div className="container mx-auto flex items-center justify-between">
                 {/* Logo */}
                 <div className='logo ml-3'>
-                    <span className='font-semibold text-[18px] mr-1.5'>I-KAY</span>
+                    <span className='font-semibold text-[18px] mr-1.5'>IY-KAY</span>
                     <span className='font-semibold text-[18px] text-[#1e7ed7]'>MOTORS</span>
                 </div>
 

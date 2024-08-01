@@ -5,7 +5,7 @@ import VehicleCard from '../../../components/VehicleCard';
 import Modal from './Modal';
 import ScheduleTestDriveForm from './TestdriveForm';
 
-let vehicleList = [
+const vehicleList = [
     {
         name: 'Nissan Navara 2023',
         description: 'A robust pickup truck known for its off-road capabilities and comfort.',
@@ -42,13 +42,16 @@ let vehicleList = [
 
 const FeaturedVehicles = ({ vehicles = vehicleList }) => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const [selectedVehicle, setSelectedVehicle] = useState(null);
 
-    const handleTestDriveClick = () => {
+    const handleTestDriveClick = (vehicle) => {
+        setSelectedVehicle(vehicle);
         setModalOpen(true);
     };
 
     const handleCloseModal = () => {
         setModalOpen(false);
+        setSelectedVehicle(null);
     };
 
     return (
@@ -64,7 +67,7 @@ const FeaturedVehicles = ({ vehicles = vehicleList }) => {
                                 <VehicleCard
                                     key={index}
                                     vehicle={vehicle}
-                                    onTestDrive={handleTestDriveClick}
+                                    onTestDrive={() => handleTestDriveClick(vehicle)}
                                 />
                             ))}
                         </CustomSlider>
@@ -73,7 +76,7 @@ const FeaturedVehicles = ({ vehicles = vehicleList }) => {
             </div>
 
             <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
-                <ScheduleTestDriveForm onClose={handleCloseModal} />
+                <ScheduleTestDriveForm onClose={handleCloseModal} vehicle={selectedVehicle} />
             </Modal>
         </section>
     );
