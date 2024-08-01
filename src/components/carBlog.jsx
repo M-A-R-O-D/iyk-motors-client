@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import carData from './carData.json'; // Import the JSON data
-import CarsDetailPage from './CarsDetailPage'; // Import the CarsDetailPage component
+import carData from './carData.json';
+import CarsDetailPage from './CarsDetailPage';
 import Sidebar from './sidebar';
 
 function CarBlog() {
