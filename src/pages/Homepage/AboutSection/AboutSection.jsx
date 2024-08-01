@@ -28,7 +28,7 @@ function AboutSection() {
                                 THE BEST IN THE <span className="text-custom-blue">AUTOMOBILE</span> INDUSTRY
                             </h1>
                             <p className="mb-6">
-                                At I-Kay Motors, we pride ourselves on being a leader in the automobile industry.
+                                At IY-Kay Motors, we pride ourselves on being a leader in the automobile industry.
                                 Our commitment to excellence, innovation, and customer satisfaction sets us apart.
                                 With a diverse range of high-quality vehicles, competitive pricing,
                                 and a team of experienced professionals, we ensure you drive away with confidence and satisfaction.

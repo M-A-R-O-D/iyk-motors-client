@@ -1,0 +1,381 @@
+{
+    "cars": [
+      {
+        "vehicleType": "Economy",
+        "cars": [
+          {
+            "name": "Toyota Yaris",
+            "year": 2022,
+            "price": "GHc 120,000",
+            "transmission": "Automatic",
+            "image": "/assets/yaris.jpg"
+          },
+          {
+            "name": "Honda Fit",
+            "year": 2021,
+            "price": "GHc 115,000",
+            "transmission": "Manual",
+            "image": "/assets/fit.jpg"
+          },
+          {
+            "name": "Ford Fiesta",
+            "year": 2023,
+            "price": "GHc 130,000",
+            "transmission": "Automatic",
+            "image": "/assets/fiesta.jpg"
+          },
+          {
+            "name": "Chevrolet Spark",
+            "year": 2020,
+            "price": "GHc 110,000",
+            "transmission": "Manual",
+            "image": "/assets/spark.jpeg"
+          },
+          {
+            "name": "Hyundai Accent",
+            "year": 2021,
+            "price": "GHc 125,000",
+            "transmission": "Automatic",
+            "image": "/assets/accent.jpg"
+          },
+          {
+            "name": "Nissan Versa",
+            "year": 2022,
+            "price": "GHc 120,000",
+            "transmission": "Manual",
+            "image": "/assets/versa.jpg"
+          }
+        ]
+      },
+      {
+        "vehicleType": "Sports",
+        "cars": [
+          {
+            "name": "Porsche 911",
+            "year": 2022,
+            "price": "GHc 850,000",
+            "transmission": "Automatic",
+            "image": "/assets/911.jpg"
+          },
+          {
+            "name": "Ford Mustang",
+            "year": 2021,
+            "price": "GHc 600,000",
+            "transmission": "Manual",
+            "image": "/assets/mustang.jpg"
+          },
+          {
+            "name": "Chevrolet Camaro",
+            "year": 2023,
+            "price": "GHc 750,000",
+            "transmission": "Automatic",
+            "image": "/assets/camaro.jpg"
+          },
+          {
+            "name": "BMW M3",
+            "year": 2020,
+            "price": "GHc 700,000",
+            "transmission": "Manual",
+            "image": "/assets/m3.jpeg"
+          },
+          {
+            "name": "Audi R8",
+            "year": 2021,
+            "price": "GHc 1,200,000",
+            "transmission": "Automatic",
+            "image": "/assets/r8.jpg"
+          },
+          {
+            "name": "Nissan GT-R",
+            "year": 2022,
+            "price": "GHc 950,000",
+            "transmission": "Manual",
+            "image": "/assets/gtr.jpg"
+          }
+        ]
+      },
+      {
+        "vehicleType": "Family",
+        "cars": [
+          {
+            "name": "Toyota Sienna",
+            "year": 2022,
+            "price": "GHc 300,000",
+            "transmission": "Automatic",
+            "image": "/assets/sienna.jpg"
+          },
+          {
+            "name": "Honda Odyssey",
+            "year": 2021,
+            "price": "GHc 290,000",
+            "transmission": "Manual",
+            "image": "/assets/odyssey.jpg"
+          },
+          {
+            "name": "Chrysler Pacifica",
+            "year": 2023,
+            "price": "GHc 320,000",
+            "transmission": "Automatic",
+            "image": "/assets/pacifica.jpeg"
+          },
+          {
+            "name": "Kia Carnival",
+            "year": 2020,
+            "price": "GHc 280,000",
+            "transmission": "Manual",
+            "image": "/assets/carnival.jpeg"
+          },
+          {
+            "name": "Chevrolet Traverse",
+            "year": 2021,
+            "price": "GHc 310,000",
+            "transmission": "Automatic",
+            "image": "/assets/traverse.jpg"
+          },
+          {
+            "name": "Ford Explorer",
+            "year": 2022,
+            "price": "GHc 330,000",
+            "transmission": "Manual",
+            "image": "/assets/explorer.jpg"
+          }
+        ]
+      },
+      {
+        "vehicleType": "4x4",
+        "cars": [
+          {
+            "name": "Jeep Wrangler",
+            "year": 2022,
+            "price": "GHc 400,000",
+            "transmission": "Automatic",
+            "image": "/assets/wrangler.jpg"
+          },
+          {
+            "name": "Toyota Land Cruiser",
+            "year": 2021,
+            "price": "GHc 450,000",
+            "transmission": "Manual",
+            "image": "/assets/cruiser.jpg"
+          },
+          {
+            "name": "Land Rover Defender",
+            "year": 2023,
+            "price": "GHc 500,000",
+            "transmission": "Automatic",
+            "image": "/assets/defender.jpg"
+          },
+          {
+            "name": "Ford Bronco",
+            "year": 2020,
+            "price": "GHc 420,000",
+            "transmission": "Manual",
+            "image": "/assets/bronco.jpg"
+          },
+          {
+            "name": "Nissan Patrol",
+            "year": 2021,
+            "price": "GHc 430,000",
+            "transmission": "Automatic",
+            "image": "/assets/patrol.jpg"
+          },
+          {
+            "name": "Mitsubishi Pajero",
+            "year": 2022,
+            "price": "GHc 440,000",
+            "transmission": "Manual",
+            "image": "/assets/pajero.jpg"
+          }
+        ]
+      },
+      {
+        "vehicleType": "Pickup",
+        "cars": [
+          {
+            "name": "Ford F-150",
+            "year": 2022,
+            "price": "GHc 500,000",
+            "transmission": "Automatic",
+            "image": "/assets/f150.jpg"
+          },
+          {
+            "name": "Chevrolet Silverado",
+            "year": 2021,
+            "price": "GHc 480,000",
+            "transmission": "Manual",
+            "image": "/assets/silvarado.jpg"
+          },
+          {
+            "name": "Ram 1500",
+            "year": 2023,
+            "price": "GHc 520,000",
+            "transmission": "Automatic",
+            "image": "/assets/1500.jpg"
+          },
+          {
+            "name": "Toyota Tacoma",
+            "year": 2020,
+            "price": "GHc 460,000",
+            "transmission": "Manual",
+            "image": "/assets/tacoma.jpg"
+          },
+          {
+            "name": "Nissan Frontier",
+            "year": 2021,
+            "price": "GHc 470,000",
+            "transmission": "Automatic",
+            "image": "/assets/frontier.jpg"
+          },
+          {
+            "name": "GMC Sierra",
+            "year": 2022,
+            "price": "GHc 490,000",
+            "transmission": "Manual",
+            "image": "/assets/sierra.jpg"
+          }
+        ]
+      },
+      {
+        "vehicleType": "Convertible",
+        "cars": [
+          {
+            "name": "Mazda MX-5 Miata",
+            "year": 2022,
+            "price": "GHc 300,000",
+            "transmission": "Automatic",
+            "image": "/assets/mx5.jpg"
+          },
+          {
+            "name": "BMW Z4",
+            "year": 2021,
+            "price": "GHc 450,000",
+            "transmission": "Manual",
+            "image": "/assets/z4.jpg"
+          },
+          {
+            "name": "Audi A5 Cabriolet",
+            "year": 2023,
+            "price": "GHc 500,000",
+            "transmission": "Automatic",
+            "image": "/assets/a5.jpg"
+          },
+          {
+            "name": "Mercedes-Benz C-Class",
+            "year": 2020,
+            "price": "GHc 480,000",
+            "transmission": "Manual",
+            "image": "/assets/class.jpeg"
+          },
+          {
+            "name": "Porsche 718 Boxster",
+            "year": 2021,
+            "price": "GHc 600,000",
+            "transmission": "Automatic",
+            "image": "/assets/boxster.jpg"
+          },
+          {
+            "name": "Chevrolet Corvette",
+            "year": 2022,
+            "price": "GHc 700,000",
+            "transmission": "Manual",
+            "image": "/assets/corvette.jpg"
+          }
+        ]
+      },
+      {
+        "vehicleType": "SUV",
+        "cars": [
+          {
+            "name": "Toyota Highlander",
+            "year": 2023,
+            "price": "GHc 600,000",
+            "transmission": "Automatic",
+            "image": "/assets/highlander.png"
+          },
+          {
+            "name": "Honda CR-V",
+            "year": 2021,
+            "price": "GHc 550,000",
+            "transmission": "Manual",
+            "image": "/assets/images/HOnda CR-V.webp"
+          },
+          {
+            "name": "Ford Escape",
+            "year": 2022,
+            "price": "GHc 580,000",
+            "transmission": "Automatic",
+            "image": "/assets/escape.jpg"
+          },
+          {
+            "name": "Chevrolet Equinox",
+            "year": 2020,
+            "price": "GHc 530,000",
+            "transmission": "Manual",
+            "image": "/assets/equinox.jpg"
+          },
+          {
+            "name": "Nissan Rogue",
+            "year": 2021,
+            "price": "GHc 560,000",
+            "transmission": "Automatic",
+            "image": "/assets/rogue.jpg"
+          },
+          {
+            "name": "Hyundai Santa Fe",
+            "year": 2022,
+            "price": "GHc 570,000",
+            "transmission": "Manual",
+            "image": "/assets/fe.jpg"
+          }
+        ]
+      },
+      {
+        "vehicleType": "Sedan",
+        "cars": [
+          {
+            "name": "Toyota Camry",
+            "year": 2022,
+            "price": "GHc 450,000",
+            "transmission": "Automatic",
+            "image": "/assets/camry.jpg"
+          },
+          {
+            "name": "Honda Accord",
+            "year": 2021,
+            "price": "GHc 430,000",
+            "transmission": "Manual",
+            "image": "/assets/accord.jpg"
+          },
+          {
+            "name": "Nissan Altima",
+            "year": 2023,
+            "price": "GHc 460,000",
+            "transmission": "Automatic",
+            "image": "/assets/altima.png"
+          },
+          {
+            "name": "Chevrolet Malibu",
+            "year": 2020,
+            "price": "GHc 420,000",
+            "transmission": "Manual",
+            "image": "/assets/malibu.jpg"
+          },
+          {
+            "name": "Hyundai Sonata",
+            "year": 2021,
+            "price": "GHc 440,000",
+            "transmission": "Automatic",
+            "image": "/assets/sonata.jpg"
+          },
+          {
+            "name": "Kia Optima",
+            "year": 2022,
+            "price": "GHc 430,000",
+            "transmission": "Manual",
+            "image": "/assets/optima.jpg"
+          }
+        ]
+      }
+    ]
+  }
+  
