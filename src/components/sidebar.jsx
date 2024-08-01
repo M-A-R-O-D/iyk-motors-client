@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 function Sidebar({ onFilterChange }) {
   const [vehicleTypeOpen, setVehicleTypeOpen] = useState(false);
   const [vehicleTransmissionOpen, setvehicleTransmissionOpen] = useState(false);
+  const [vehicleYearOpen, setvehicleYearOpen] = useState(false);
 
   const handleVehicleTypeClick = (type) => {
     onFilterChange({ vehicleType: type });
@@ -10,6 +11,10 @@ function Sidebar({ onFilterChange }) {
 
   const handleVehicleTransmissionClick = (type) => {
     onFilterChange({ vehicleTransmission: type });
+  };
+
+  const handleVehicleYearClick = (type) => {
+    onFilterChange({ vehicleYear: type });
   };
 
   return (
@@ -43,6 +48,23 @@ function Sidebar({ onFilterChange }) {
         <div className="space-y-4">
           {['Automatic', 'Manual'].map((type) => (
             <p key={type} className="flex items-center text-gray-400 cursor-pointer" onClick={() => handleVehicleTransmissionClick(type)}>
+              <span className="mr-2">&#9723;</span>{type}
+            </p>
+          ))}
+        </div>
+      )}
+      {/* Year filter */}
+      <div className="relative mb-4">
+        <p className="bebas-neue text-gray-500 text-[26px] cursor-pointer" onClick={() => setvehicleYearOpen(!vehicleYearOpen)}>YEAR
+          <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
+            keyboard_arrow_down
+          </span>
+        </p>
+      </div>
+      {vehicleYearOpen && (
+        <div className="space-y-4">
+          {[2020, 2021, 2022, 2023].map((type) => (
+            <p key={type} className="flex items-center text-gray-400 cursor-pointer" onClick={() => handleVehicleYearClick(type)}>
               <span className="mr-2">&#9723;</span>{type}
             </p>
           ))}

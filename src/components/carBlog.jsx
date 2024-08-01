@@ -4,7 +4,7 @@ import CarsDetailPage from './CarsDetailPage';
 import Sidebar from './sidebar';
 
 function CarBlog() {
-  const [filters, setFilters] = useState({ vehicleType: '', vehicleTransmission: '' });
+  const [filters, setFilters] = useState({ vehicleType: '', vehicleTransmission: '', vehicleYear: '' });
 
   const handleFilterChange = (newFilters) => {
     setFilters((prevFilters) => ({ ...prevFilters, ...newFilters }));
@@ -13,7 +13,8 @@ function CarBlog() {
   const filteredCars = carData.cars
     .filter(category => !filters.vehicleType || category.vehicleType === filters.vehicleType)
     .flatMap(category => category.cars)
-    .filter(car => !filters.vehicleTransmission || car.transmission === filters.vehicleTransmission);
+    .filter(car => !filters.vehicleTransmission || car.transmission === filters.vehicleTransmission)
+    .filter(car => !filters.vehicleYear || car.year === filters.vehicleYear);
 
   return (
     <div className="flex ">
