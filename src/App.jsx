@@ -13,7 +13,7 @@ import { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <Router>
-      <Toaster position='top-center' toastoptions={{ duration: 3000 }} />
+      <Toaster position='top-center' toastoptions={{ duration: 5000 }} />
       <ScrollProvider>
         <div className="flex flex-col min-h-screen overflow-x-hidden">
           <Header />
