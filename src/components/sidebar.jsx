@@ -23,7 +23,7 @@ function Sidebar({ onFilterChange }) {
       <div className="relative mb-4">
         <p className="bebas-neue text-gray-500 text-[26px] cursor-pointer" onClick={() => setVehicleTypeOpen(!vehicleTypeOpen)}>VEHICLE TYPE
           <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
-            keyboard_arrow_down
+          {vehicleTypeOpen ? 'keyboard_arrow_up' : 'keyboard_arrow_down'}
           </span>
         </p>
       </div>
@@ -40,7 +40,7 @@ function Sidebar({ onFilterChange }) {
       <div className="relative mb-4">
         <p className="bebas-neue text-gray-500 text-[26px] cursor-pointer" onClick={() => setvehicleTransmissionOpen(!vehicleTransmissionOpen)}>TRANSMISSION TYPE
           <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
-            keyboard_arrow_down
+          {vehicleTransmissionOpen ? 'keyboard_arrow_up' : 'keyboard_arrow_down'}
           </span>
         </p>
       </div>
@@ -57,7 +57,7 @@ function Sidebar({ onFilterChange }) {
       <div className="relative mb-4">
         <p className="bebas-neue text-gray-500 text-[26px] cursor-pointer" onClick={() => setvehicleYearOpen(!vehicleYearOpen)}>YEAR
           <span className="material-symbols-outlined absolute right-0 top-1/2 transform -translate-y-1/2 text-gray-400">
-            keyboard_arrow_down
+          {vehicleYearOpen ? 'keyboard_arrow_up' : 'keyboard_arrow_down'}
           </span>
         </p>
       </div>
