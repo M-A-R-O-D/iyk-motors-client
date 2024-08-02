@@ -1,12 +1,14 @@
 import React from 'react'
 import '../../App.css'
 import Footer from '../../components/Footer.jsx';
-import Sidebar from '../../components/sidebar.jsx';
+// import Sidebar from '../../components/sidebar.jsx';
 import SearchBars from '../../components/SearcBars.jsx';
 import Button from '../../components/Button';
-import Popup from '../../components/Popup.jsx';
-import CarsDetailPage from '../../components/CarsDetailPage.jsx';
-import CarBlog from "../../components/carBlog.jsx";
+//import Popup from '../../components/Popup.jsx';
+// import CarsDetailPage from '../../components/CarsDetailPage.jsx';
+ import CarBlog from "../../components/carBlog.jsx";
+// import Popup from '../../components/Popup.jsx';
+// import CarsDetailPage from '../../components/CarsDetailPage.jsx';
 import ScrollToTopBtn from "../../components/ScrollToTopBtn.jsx";
 
 
