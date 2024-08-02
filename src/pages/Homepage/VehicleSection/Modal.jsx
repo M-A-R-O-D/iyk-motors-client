@@ -3,7 +3,6 @@ import { Icon } from '@iconify-icon/react';
 
 const Modal = ({ isOpen, onClose, children }) => {
     if (!isOpen) return null;
-    console.log("logging children:", children);
 
     return (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50 overflow-y-auto">

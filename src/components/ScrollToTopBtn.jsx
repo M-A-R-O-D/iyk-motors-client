@@ -21,7 +21,7 @@ const ScrollToTopBtn = ({ onClick }) => {
     return (
         <Button
             onClick={onClick}
-            className={`bg-custom-white border-2 rounded-1 border-custom-blue text-custom-blue fixed bottom-10 right-[-3px] transform transition-transform duration-300 ${isVisible ? 'translate-x-0' : 'translate-x-full'
+            className={`bg-custom-white border-2 rounded-1 border-custom-blue text-custom-blue fixed bottom-24 right-[-3px] transform transition-transform duration-300 ${isVisible ? 'translate-x-0' : 'translate-x-full'
                 }`}
         >
             <Icon icon="ph:caret-double-up-bold" style={{ fontSize: '24px' }} />
