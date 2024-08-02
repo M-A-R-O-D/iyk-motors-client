@@ -4,16 +4,13 @@ import Footer from '../../components/Footer.jsx';
 // import Sidebar from '../../components/sidebar.jsx';
 import SearchBars from '../../components/SearcBars.jsx';
 import Button from '../../components/Button';
-<<<<<<< HEAD
 //import Popup from '../../components/Popup.jsx';
 // import CarsDetailPage from '../../components/CarsDetailPage.jsx';
  import CarBlog from "../../components/carBlog.jsx";
-=======
-import Popup from '../../components/Popup.jsx';
-import CarsDetailPage from '../../components/CarsDetailPage.jsx';
+// import Popup from '../../components/Popup.jsx';
+// import CarsDetailPage from '../../components/CarsDetailPage.jsx';
 import CarBlog from "../../components/carBlog.jsx";
 import ScrollToTopBtn from "../../components/ScrollToTopBtn.jsx";
->>>>>>> 2b78cb5e31e19d66183a04742faff51fe7836235
 
 
 function CarsPage() {
