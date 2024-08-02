@@ -25,7 +25,7 @@ function CarBlog() {
         </p>
         <div className="flex flex-wrap">
           {filteredCars.map((car, index) => (
-            <div key={index} className="car-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
+            <div key={index} className="card-card w-[350px] h-[400px] flex flex-col justify-center items-center ml-3 mr-3 mb-5">
               <img className="w-full h-48" src={car.image} alt={car.name} />
               <h3 className="bebas-neue text-[26px]">{car.name} <span className="text-[#1e7ed7]">- {car.year}</span></h3>
               <p className="mb-8">Start prices from {car.price}</p>
