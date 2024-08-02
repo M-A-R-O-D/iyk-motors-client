@@ -9,7 +9,6 @@ import Button from '../../components/Button';
  import CarBlog from "../../components/carBlog.jsx";
 // import Popup from '../../components/Popup.jsx';
 // import CarsDetailPage from '../../components/CarsDetailPage.jsx';
-import CarBlog from "../../components/carBlog.jsx";
 import ScrollToTopBtn from "../../components/ScrollToTopBtn.jsx";
 
 
