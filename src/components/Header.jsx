@@ -17,10 +17,10 @@ function Header() {
         <header className="bg-white font-poppins shadow py-4 fixed w-full top-0 left-0 z-50">
             <div className="container mx-auto flex items-center justify-between">
                 {/* Logo */}
-                <div className='logo ml-3'>
+                <a href='/' className='logo ml-3'>
                     <span className='font-semibold text-[18px] mr-1.5'>IY-KAY</span>
-                    <span className='font-semibold text-[18px] text-[#1e7ed7]'>MOTORS</span>
-                </div>
+                    <span className='font-semibold text-[18px] text-[#1e7ed7]'>VENTURES</span>
+                </a>
 
                 {/* Hamburger Icon */}
                 <button onClick={toggleNavbar} className="mr-3 block md:hidden text-black z-50">

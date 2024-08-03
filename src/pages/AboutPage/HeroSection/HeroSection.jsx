@@ -15,7 +15,7 @@ const HeroSection = () => {
                     }}>
 
                     <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center">
-                        <h1 className="text-white text-3xl md:text-6xl font-bold text-center">WELCOME TO <span className='text-custom-blue'>IY-KAY MOTORS</span></h1>
+                        <h1 className="text-white text-3xl md:text-6xl font-bold text-center">WELCOME TO <span className='text-custom-blue'>IY-KAY VENTURES</span></h1>
                         <p className="text-white text-lg md:text-xl mt-2 text-center">Driving the Future of the Automobile Industry</p>
                     </div>
 

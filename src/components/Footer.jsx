@@ -46,11 +46,11 @@ const Footer = () => {
                         </p>
                         <p className="flex items-center">
                             <Icon icon="mdi:email" className="mr-2" style={{ fontSize: "26px" }} />
-                            Email: info@iykmotors.com
+                            Email: info@iykventures.com
                         </p>
                         <p className="flex items-center">
                             <Icon icon="mdi:location" className="mr-2" style={{ fontSize: "26px" }} />
-                            Loc: 3 Lemon St, East-Legon, Accra
+                            Loc: Achimota Mile 7
                         </p>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const Footer = () => {
 
             {/* Copyright */}
             <div className="text-white-500 font-semibold text-center mt-6">
-                <p>&copy; {new Date().getFullYear()} IYK-MOTORS. All Rights Reserved.</p>
+                <p>&copy; {new Date().getFullYear()} IYK-VENTURES. All Rights Reserved.</p>
             </div>
         </footer>
     );

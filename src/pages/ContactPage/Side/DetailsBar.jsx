@@ -100,7 +100,7 @@ const DetailsBar = () => {
 
         <ContactsWrapper href="mailto:info@iykmotors.com">
           <Icon.Mail size={25} color="#fff" />
-          <ContactText>info@iykmotors.com</ContactText>
+          <ContactText>info@iykventures.com</ContactText>
         </ContactsWrapper>
       </div>
 
