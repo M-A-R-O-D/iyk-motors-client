@@ -1,6 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { useNavigate } from 'react-router-dom';
+import { sendContactForm } from '../../../services/MailServices/MailService';
+import toast from 'react-hot-toast';
+
 const InputSideWrapper = styled.form`
   height: auto;
   padding-bottom: 100px;
@@ -91,25 +94,36 @@ const InputSide = () => {
   };
 
   const navigate = useNavigate();
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonLoading(true);
-    //I'm yet to enable the sending of messages to mail
-    const response = await fetch('https://formspree.io/f/<your-form-id>', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ name, email, phone, message }),
-    });
-
-    if (response.ok) {
-      navigate('/success');
+    const formData = {
+      name,
+      email,
+      phone,
+      message,
+    };
+    try {
+        const { code, message } = await sendContactForm(formData);
+        if (code === 200) {
+            toast.success(message);
+        } else {
+            toast.error(message);
+        }
+        // if (response.ok) {
+        //   navigate('/success');
+        //   setButtonLoading(false);
+        // } else {
+        //   alert('Failed to submit form');
+        // }
+    } catch (error) {
+        console.log(error);
+        toast.error("Internal server error.")
+    }finally {
       setButtonLoading(false);
-    } else {
-      alert('Failed to submit form');
     }
-  };
+};
 
   return (
     <InputSideWrapper onSubmit={handleSubmit}>
@@ -147,7 +161,7 @@ const InputSide = () => {
         />
       </InputWrapper>
       {buttonLoading ? (
-        <LoadingButton>Loading...</LoadingButton>
+        <LoadingButton>Submitting...</LoadingButton>
       ) : (
         <SubMitButton type="submit" value="Send Message" />
       )}

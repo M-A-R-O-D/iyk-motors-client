@@ -3,7 +3,7 @@ import { useScroll } from '../../context/ScrollContext.jsx';
 import HeroSection from './Hero/Hero.jsx';
 import FormPage from './ContactSection/Contact.jsx';
 import ContactUsFooter from '../../components/ContactUsFooter.jsx';
-import ScrollToTopBtn from '../../components/ScrollToTopBtn.jsx';
+//import ScrollToTopBtn from '../../components/ScrollToTopBtn.jsx';
 
 
 function ContactPage() {
