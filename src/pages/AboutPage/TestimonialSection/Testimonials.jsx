@@ -5,11 +5,11 @@ const Testimonials = () => {
     const testimonials = [
         {
             name: 'Alice Brown',
-            feedback: 'I had a great experience at IYK Motors. The staff was friendly and helped me find the perfect car!',
+            feedback: 'I had a great experience at IYK Ventures. The staff was friendly and helped me find the perfect car!',
         },
         {
             name: 'Robert White',
-            feedback: 'I-Kay Motors provided excellent service and a fantastic selection of cars. Highly recommend!',
+            feedback: 'I-Kay Ventures provided excellent service and a fantastic selection of cars. Highly recommend!',
         },
     ];
 

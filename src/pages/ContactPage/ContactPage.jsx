@@ -2,7 +2,8 @@ import React, { useEffect } from 'react';
 import { useScroll } from '../../context/ScrollContext.jsx';
 import HeroSection from './Hero/Hero.jsx';
 import FormPage from './ContactSection/Contact.jsx';
-import ContactUsFooter from '../../components/ContactUsFooter.jsx';
+// import ContactUsFooter from '../../components/ContactUsFooter.jsx';
+import Footer from '../../components/Footer.jsx';
 import ScrollToTopBtn from '../../components/ScrollToTopBtn.jsx';
 
 
@@ -23,9 +24,10 @@ function ContactPage() {
                 <FormPage />
             </div>
             <div className="flex-grow">
-                <ContactUsFooter />
+            {/* <ContactUsFooter /> */}
+            <Footer />
             </div>
-            {/* <ScrollToTopBtn onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} /> */}
+            <ScrollToTopBtn onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} />
         </div>
     );
 }

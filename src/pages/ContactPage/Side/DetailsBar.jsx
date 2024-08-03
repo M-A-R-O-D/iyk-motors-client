@@ -85,9 +85,14 @@ const DetailsBar = () => {
     <DetailsBarWrapper>
       <TextWrapper>
         <TextOne>Contact Information</TextOne>
-        <TextTwo>Fill up the form and our team will get back to you within 24 hours</TextTwo>
+        <TextTwo>Kindly fill up the form and our team will get back to you within 24 hours</TextTwo>
       </TextWrapper>
       <div>
+        <ContactsWrapper>
+          <Icon.MapPin size={25} color="#fff" />
+          <ContactText>Achimota Mile 7</ContactText>
+        </ContactsWrapper>
+
         <ContactsWrapper href="tel:+123 456 7890">
           <Icon.Phone size={25} color="#fff" />
           <ContactText>+123 456 7890</ContactText>
@@ -95,18 +100,18 @@ const DetailsBar = () => {
 
         <ContactsWrapper href="mailto:info@iykmotors.com">
           <Icon.Mail size={25} color="#fff" />
-          <ContactText>info@iykmotors.com</ContactText>
+          <ContactText>info@iykventures.com</ContactText>
         </ContactsWrapper>
       </div>
 
       <SocialsWrapper>
-        <SocialIconWrapper href="https://www.facebook.com/profile.php?id=100021937291259">
+        <SocialIconWrapper href="https://www.facebook.com/">
           <Icon.Facebook color="#fff" size={25} />
         </SocialIconWrapper>
-        <SocialIconWrapper href="https://www.instagram.com/_allenjones/">
+        <SocialIconWrapper href="https://www.instagram.com/">
           <Icon.Instagram color="#fff" size={25} />
         </SocialIconWrapper>
-        <SocialIconWrapper href="https://www.linkedin.com/in/allen-jones-b799b7171/">
+        <SocialIconWrapper href="https://www.linkedin.com/">
           <Icon.Linkedin color="#fff" size={25} />
         </SocialIconWrapper>
       </SocialsWrapper>
